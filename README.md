@@ -13,6 +13,13 @@ Here are just some of the ways the #WWCodeMobile track is helping to give back t
 
 If you're interested in joing the community as a member or volunteer please visit our [website](https://www.womenwhocode.com/mobile) for more information!
 
+## Women Who Code Leadership Fellow
+Mackenzie Bryant
+
+## About Mackenzie
+Mackenzie Bryant is a mobile software engineer primarily focused on iOS development. Mackenzie is passionate about building the WWCode Mobile technical track community and helping others advance their technical skills. She enjoys discovering creative ways to learn more about the fast evolving Swift language. When she is not building or learning something new, you can find her at an art museum, concert or one of Chicago's many beaches!
+Contact Mackenzie: [Email](mackenzie@womenwhocode.com)
+
 ## Social
 [Twitter](https://twitter.com/wwcodemobile),
 [Instagram](https://www.instagram.com/wwcodemobile/)
