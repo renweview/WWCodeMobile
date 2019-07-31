@@ -11,7 +11,7 @@ Here are just some of the ways the #WWCodeMobile track is helping to give back t
 
 💻 Technical Webinars 📲 Coding Resources 💭 Slack Study Group Sessions 🗺️ Supportive Global Network
 
-If you're interested in joing the community as a member or volunteer please visit https://www.womenwhocode.com/mobile for more information!
+If you're interested in joing the community as a member or volunteer please visit our [website](https://www.womenwhocode.com/mobile) for more information!
 
 ## Social
 [Twitter](https://twitter.com/wwcodemobile),
@@ -22,6 +22,6 @@ WWCode is the largest and most active community of technical women in the world.
 
 ## Code of Conduct
 Women Who Code (WWCode) is dedicated to providing an empowering experience for everyone who participates in or supports our community. Our events are intended to inspire women to excel in technology careers, and anyone who is there for this purpose is welcome. Because we value the safety and security of our members and strive to have an inclusive community, we do not tolerate harassment of members or event participants in any form. This Code of Conduct was created to clearly define what we mean by a harassment-free experience, so that our community and those who support it are clear about our intent and have access to procedures for addressing issues, should they arise.
-Read more here: https://www.womenwhocode.com/codeofconduct
+[Code of Conduct](https://www.womenwhocode.com/codeofconduct)
 ```
 
