@@ -13,9 +13,9 @@ Here are just some of the ways the #WWCodeMobile track is helping to give back t
 
 If you're interested in joing the community as a member or volunteer please visit https://www.womenwhocode.com/mobile for more information!
 
-## Find us on Twitter & Instagram:
-https://twitter.com/wwcodemobile
-https://www.instagram.com/wwcodemobile/
+## Social
+[Twitter](https://twitter.com/wwcodemobile),
+[Instagram](https://www.instagram.com/wwcodemobile/)
 
 ## About Women Who Code:
 WWCode is the largest and most active community of technical women in the world. We have 180,000 members in 60 cities spanning 20 countries & counting. Join our community by visiting womenwhocode.com and sign up to become a member.
