@@ -7,7 +7,7 @@ Vivian Smiari
 
 ### About Vivian
 
-Vivian is a PhD candidate at University of Western Macedonia specialized in Software Engineering for Smart Cities. She is currently a Mobile Team Lead developing mainly #Android applications. Since becoming involved in Women Who Code Mobile, Vivian has started a #swift Study Group. Vivian is an inspiration to our community and her dedication to leadership makes her an exceptional mentor.
+Vivian is a PhD candidate at University of Western Macedonia specialized in Software Engineering for Smart Cities. She is currently a Mobile Team Lead developing mainly Android applications. Since becoming involved in Women Who Code Mobile, Vivian has started this Swift Study Group to teach and help others learn iOS development.
 
 
 ## Learn more about Women Who Code Mobile
