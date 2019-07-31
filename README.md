@@ -30,4 +30,3 @@ WWCode is the largest and most active community of technical women in the world.
 Women Who Code (WWCode) is dedicated to providing an empowering experience for everyone who participates in or supports our community. Our events are intended to inspire women to excel in technology careers, and anyone who is there for this purpose is welcome. Because we value the safety and security of our members and strive to have an inclusive community, we do not tolerate harassment of members or event participants in any form. This Code of Conduct was created to clearly define what we mean by a harassment-free experience, so that our community and those who support it are clear about our intent and have access to procedures for addressing issues, should they arise.
 [Code of Conduct](https://www.womenwhocode.com/codeofconduct)
 ```
-
