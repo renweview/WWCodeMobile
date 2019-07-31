@@ -23,7 +23,7 @@ Mackenzie Bryant is a mobile software engineer primarily focused on iOS developm
 [Twitter](https://twitter.com/wwcodemobile),
 [Instagram](https://www.instagram.com/wwcodemobile/)
 
-## About Women Who Code:
+## About Women Who Code
 WWCode is the largest and most active community of technical women in the world. We have 180,000 members in 60 cities spanning 20 countries & counting. Join our community by visiting womenwhocode.com and sign up to become a member.
 
 ## Code of Conduct
