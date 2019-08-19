@@ -11,7 +11,7 @@ Here are just some of the ways the #WWCodeMobile track is helping to give back t
 
 💻 Technical Webinars 📲 Coding Resources 💭 Slack Study Group Sessions 🗺️ Supportive Global Network
 
-If you're interested in joing the community as a member or volunteer please visit our [website](https://www.womenwhocode.com/mobile) for more information! Or send us an [email](mobile@womenwhocode.com).
+If you're interested in joining the community as a member or volunteer please visit our [website](https://www.womenwhocode.com/mobile) for more information! Or send us an [email](mobile@womenwhocode.com).
 
 ## Women Who Code Leadership Fellow
 Mackenzie Bryant
