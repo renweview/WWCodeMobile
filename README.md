@@ -1,4 +1,4 @@
-# WWCodeMobile Projects & Sessions
+# WWCodeMobile
 
 This repo contains projects and information from our sessions.
 
