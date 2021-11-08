@@ -21,6 +21,18 @@ It’s important to stay focused on strengths, which everyone has, and on how we
 **Inside-Out Section - Discussion Question 5:**   
 One page lists a litany of complaints, each ending with “hands thrown up in the air” resignation. Was there a time in your life when you’ve felt that way? Do you perhaps feel that way right now? What was your mindset to cause those feelings, and how does it affect your behavior? What price are you paying because of this way of thinking? What might be the payoff if you could  change  your  thinking  and  your  behavior?
 
+**Be Proactive - Discussion Question 1:**    
+What does it mean to Be Proactive? Is this different from how you’ve previously defined being proactive? How? What’s an example of when you’ve been proactive with a client? a colleague? a family member?
+
+**Be Proactive - Discussion Question 2:**  
+Why does Covey say Habit 1 is the foundational habit — that if we’re not being proactive, we can’t be truly effective in any area of our lives?
+
+**Be Proactive - Discussion Question 3:**  
+How well are you doing at being proactive at work? at home?
+
+**Be Proactive - Discussion Question 4:**   
+Why does Covey say reactive people focus on their Circle of Concern® vs. their Circle of Influence®? What attitudes and behaviors come from focusing on things we really can’t influence? How does a reactive focus impact our relationships and results?
+
 ### Habit Two: Begin With The End In Mind
 
 ### Habit Three: Put First Things First
