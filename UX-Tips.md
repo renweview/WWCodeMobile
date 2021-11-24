@@ -15,4 +15,10 @@ Making mistakes is very common, but is often a source of frustration for people.
 Some examples of how this can be accomplished:
 Ask users to confirm that they would like to delete an item before deleting it.
 Verify that an input has been entered correctly before allowing users to complete a form.
-Use inactive states for “next” buttons until the user has completed the required task(s).
+Use inactive states for “next” buttons until the user has completed the required task(s).      
+
+**Don't reinvent the wheel**    
+
+Users don’t always like change. They’re used to the conventional mode of presentation and generally prefer not to have to adapt to something new. That’s why it’s better to use tried and tested layouts throughout a product with minor tweaks to fit your particular goals. This approach enables users to feel more comfortable with your app and lets them use it without getting annoyed by unfamiliar layouts.     
+
+For example, there’s no reason to relocate a drawer menu from the top of a screen to the bottom or change how users proceed in a mobile application. Sticking to tried and tested patterns saves your energy for those instances where design innovation really matters.
