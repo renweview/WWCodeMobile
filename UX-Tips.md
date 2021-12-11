@@ -21,4 +21,12 @@ Use inactive states for “next” buttons until the user has completed the requ
 
 Users don’t always like change. They’re used to the conventional mode of presentation and generally prefer not to have to adapt to something new. That’s why it’s better to use tried and tested layouts throughout a product with minor tweaks to fit your particular goals. This approach enables users to feel more comfortable with your app and lets them use it without getting annoyed by unfamiliar layouts.     
 
-For example, there’s no reason to relocate a drawer menu from the top of a screen to the bottom or change how users proceed in a mobile application. Sticking to tried and tested patterns saves your energy for those instances where design innovation really matters.
+For example, there’s no reason to relocate a drawer menu from the top of a screen to the bottom or change how users proceed in a mobile application. Sticking to tried and tested patterns saves your energy for those instances where design innovation really matters.    
+
+**Error Messages**     
+
+Ever used an app and received a vague error message such as “failure - error 4693”? While technically worded error messages such as this one can be deciphered by developers, they are quite confusing for users. To avoid the frustration that inevitably arrives from such confusion, make error messages short and clear using easy to understand language. Try to help the user understand what they can do to resolve the error.     
+
+For example: “Couldn’t create account because this email address is already in use”. It's also helpful to display these messages in a color that is associated with errors such as orange or red.
+
+
