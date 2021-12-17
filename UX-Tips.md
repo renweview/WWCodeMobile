@@ -29,4 +29,8 @@ Ever used an app and received a vague error message such as “failure - error 4
 
 For example: “Couldn’t create account because this email address is already in use”. It's also helpful to display these messages in a color that is associated with errors such as orange or red.
 
+**Notifications**    
 
+Don't assault your users with notifications. Notification-abusive apps are like that annoying friend who keeps calling and just can’t take a hint that you're too busy to talk.     
+
+Instead, use notifications sparingly and strategically at moments when the user will appreciate them. It is also helpful to provide notification settings, so that users can tailor their notifications to their specific needs and priorities.
