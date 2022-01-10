@@ -33,4 +33,8 @@ For example: “Couldn’t create account because this email address is already 
 
 Don't assault your users with notifications. Notification-abusive apps are like that annoying friend who keeps calling and just can’t take a hint that you're too busy to talk.     
 
-Instead, use notifications sparingly and strategically at moments when the user will appreciate them. It is also helpful to provide notification settings, so that users can tailor their notifications to their specific needs and priorities.
+Instead, use notifications sparingly and strategically at moments when the user will appreciate them. It is also helpful to provide notification settings, so that users can tailor their notifications to their specific needs and priorities.      
+
+**Text Alignment**     
+
+Your text alignment can have a major impact on the readability of your content. When you use center-aligned text, the starting place of each line changes, making it more difficult for the eye to follow. Instead use left-aligned text, where the text creates a straight left edge that forms a line to the readers eye, making for an easier and more enjoyable reading experience.
