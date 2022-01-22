@@ -37,4 +37,8 @@ Instead, use notifications sparingly and strategically at moments when the user 
 
 **Text Alignment**     
 
-Your text alignment can have a major impact on the readability of your content. When you use center-aligned text, the starting place of each line changes, making it more difficult for the eye to follow. Instead use left-aligned text, where the text creates a straight left edge that forms a line to the readers eye, making for an easier and more enjoyable reading experience.
+Your text alignment can have a major impact on the readability of your content. When you use center-aligned text, the starting place of each line changes, making it more difficult for the eye to follow. Instead use left-aligned text, where the text creates a straight left edge that forms a line to the readers eye, making for an easier and more enjoyable reading experience.       
+
+**Empty States**        
+
+Empty states should not be dead ends for users. Instead, use them as an opportunity to display useful tips and guide users towards the next step they should take using clear, informative copy and CTA buttons.
