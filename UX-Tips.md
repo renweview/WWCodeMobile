@@ -42,3 +42,7 @@ Your text alignment can have a major impact on the readability of your content. 
 **Empty States**        
 
 Empty states should not be dead ends for users. Instead, use them as an opportunity to display useful tips and guide users towards the next step they should take using clear, informative copy and CTA buttons.
+
+**Menus**       
+
+Keep the number of items within a contextual menu to 10 or less and list the items in order of their likelihood of being used. This will help users focus on what they are trying to accomplish without getting distracted.
