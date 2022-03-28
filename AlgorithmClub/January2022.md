@@ -69,7 +69,28 @@ for (i = 0; i < N; i++) {
     }
 }    
 
+----
+### Problems Week 2
+
+1. Put these functions in order of increasing growth rates:
+(1.5)^n,n^100,(logn)^3,√nlogn,10^n,(n!)^2,n^99+n^98,101^16
+2. What is the time complexity of searching an element given its index in an array?
+3) What is the time complexity of merge sort?    
+
+#### Asymptotic bounds
+https://www.youtube.com/watch?v=0oDAlMwTrLo
+https://www.youtube.com/watch?v=A03oI0znAoc
+https://www.youtube.com/watch?v=Nd0XDY-jVHs
+
+
+#### Time complexity
+
+https://www.youtube.com/watch?v=9TlHvipP5yA&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=6
     
-    
+#### FREE Udacity Algo Data structure course in Swift. 
+
+Their first lesson (Introduction and Efficiency) is about Big O and analysis. 
+Link: https://classroom.udacity.com/courses/ud1011/lessons/fad64e7f-79e6-412f-bdfb-ad0a41007eab/concepts/6bb8c80e-5bf7-40be-9297-2fa25a554484 
+and full course: https://classroom.udacity.com/courses/ud1011
     
     
