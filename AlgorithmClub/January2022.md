@@ -93,4 +93,42 @@ Their first lesson (Introduction and Efficiency) is about Big O and analysis.
 Link: https://classroom.udacity.com/courses/ud1011/lessons/fad64e7f-79e6-412f-bdfb-ad0a41007eab/concepts/6bb8c80e-5bf7-40be-9297-2fa25a554484 
 and full course: https://classroom.udacity.com/courses/ud1011
     
-    
+----
+
+### Week 3
+
+leetcode problem in Swift: https://m.youtube.com/channel/UClXXFal-vwNecz_iO3o3i7A 
+https://dev.to/christinamcmahon/runtime-analysis-big-o-notation-906
+https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/big-O.md
+
+
+----
+### Week 4
+
+What is the time, space complexity of the following code: 
+1.
+int a = 0, b = 0;
+for (i = 0; i < N; i++) {
+    a = a + rand();
+}
+for (j = 0; j < M; j++) {
+    b = b + rand();
+}
+2.
+int a = 0;
+for (i = 0; i < N; i++) {
+    for (j = N; j > i; j--) {
+        a = a + i + j;
+    }
+}
+3.
+int i, j, k = 0;
+for (i = n / 2; i <= n; i++) {
+    for (j = 2; j <= n; j = j * 2) {
+        k = k + n / 2;
+    }
+}
+
+- O(N + M) time, O(1) space,O(N*N), O(nLogn)
+
+https://sdkdeepa.medium.com/4-connecting-the-dots-big-o-and-stacks-data-structure-4d31310e894b
