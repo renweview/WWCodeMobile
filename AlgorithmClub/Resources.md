@@ -1,3 +1,5 @@
 ### All about Algorithms resources 
 ---
-https://github.com/seanprashad/leetcode-patterns
+Github: https://github.com/seanprashad/leetcode-patterns
+
+FREE interview prep bootcamp: Link:https://forms.gle/rbzvhF2xtiS7pE7x9
