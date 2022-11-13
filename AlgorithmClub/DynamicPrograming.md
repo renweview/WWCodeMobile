@@ -23,3 +23,36 @@ https://www.youtube.com/watch?v=oBt53YbR9Kk&t=14108s
 
 https://www.youtube.com/watch?v=aPQY__2H3tE&t=50s
 
+## Week 1 Problems:
+
+Climbing Stairs(Leetcode 70)
+
+House Robber(Leetcode 198)
+
+Jump Game(Leetcode 55)
+
+## Week 2 Problems:
+
+Longest Common Subsequence(Leetcode 1143)
+
+Coin Change(Leetcode 322)
+
+Word Break(Leetcode 139)
+
+https://www.youtube.com/watch?v=jTjRGe0wRvI&list=PLVrpF4r7WIhTT1hJqZmjP10nxsmrbRvlf
+
+https://www.youtube.com/watch?v=nqowUJzG-iM&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go
+
+https://www.youtube.com/watch?v=r4-cftqTcdI
+
+https://www.youtube.com/watch?v=KLBCUx1is2c
+
+https://www.youtube.com/watch?v=OQ5jsbhAv_M
+
+https://www.youtube.com/watch?v=ENyox7kNKeY
+
+https://www.youtube.com/watch?v=ocZMDMZwhCY
+
+https://www.youtube.com/watch?v=_i4Yxeh5ceQ
+
+https://www.youtube.com/watch?v=qMky6D6YtXU
