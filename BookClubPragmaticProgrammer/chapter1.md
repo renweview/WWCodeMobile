@@ -19,7 +19,6 @@ Turn off the autopilot and take control. Constantly critique and appraise your w
 5. **Jack of all trades** — They don’t want to stick themselves to a certain technology, they always look to expand their spectrum of knowledge.
 
 ## 1. The Cat Ate My Source Code
-## 
 
 ![https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif](https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif)
 
@@ -30,12 +29,11 @@ Despite thorough testing, good documentation, and solid automation, things go wr
 
 **Tip 3: Provide Options, Don't Make Lame Excuses**
 Instead of excuses, provide options. Don't say it can't be done; explain what can be done to salvage the situation.
+
 <aside>
 💡 How do you react when someone—such as a bank teller, an auto mechanic, or a clerk—comes to you with a lame excuse? What do you think of them and their company as a result?
 
 </aside>
-
-## 2. Software Entropy
 
 ## 2. Software Entropy
 
@@ -51,7 +49,7 @@ According to this theory, one broken window, left unrepaired for any substantial
 Don't mess up the carpet when fixing the broken window.
 
 <aside>
-💡 Can you tell when a window first gets broken? What is your reaction? If it was the result of someone else’s decision, or a management edict, what can you do about it?
+💡 Can you tell when a window first gets broken? What is your reaction? If it was the result of someone else’s decision or a management edict, what can you do about it?
 
 </aside>
 
@@ -62,8 +60,6 @@ Don't mess up the carpet when fixing the broken window.
 ![https://media.giphy.com/media/wq3m858IuKYCEkBW1Y/giphy.gif](https://media.giphy.com/media/wq3m858IuKYCEkBW1Y/giphy.gif)
 
 [https://www.youtube.com/watch?v=dqbWMlQyEK8](https://www.youtube.com/watch?v=dqbWMlQyEK8)
-
-To overcome “start-up fatigue”, bring out the stones. Work out what you can reasonably ask for. Develop it well. Once you've got it, show people, and let them marvel. Then say "of course, it would be better if we added…."
 
 To overcome “start-up fatigue”, bring out the stones. Work out what you can reasonably ask for. Develop it well. Once you've got it, show people, and let them marvel. Then say "of course, it would be better if we added…."
 
@@ -93,7 +89,7 @@ The scope and quality of the system you produce should be specified as part of t
 
 Great software today is often preferable to perfect software tomorrow. **Know When to Stop.**
 
-Don’t spoil a perfectly good program by overembellishment and over- refinement. It may not be perfect. Don’t worry: it could never be perfect.
+Don’t spoil a perfectly good program by overembellishment and over-refinement. It may not be perfect. Don’t worry: it could never be perfect.
 
 <aside>
 💡 Look at the manufacturers of the software tools and operating systems that you use. Can you find any evidence that these companies are comfortable shipping software they know is not perfect? As a user, would you rather 
@@ -106,8 +102,6 @@ Consider the effect of modularization on the delivery of software. Will it take 
 </aside>
 
 ## 5. Your Knowledge Portfolio
-
-## 
 
 ![https://media1.giphy.com/media/9JrkkDoJuU0FbdbUZU/giphy.gif](https://media1.giphy.com/media/9JrkkDoJuU0FbdbUZU/giphy.gif)
 
@@ -197,3 +191,73 @@ What is your approach to connect with people to talk about tech?
 💡 What additional practices do you follow for better communication?
 
 </aside>
+
+## Summary:
+
+### Topic 1: It’s Your Life 💪
+
+- In this field, we have the ability to make so many changes to how we work. You have the agency to ‘change your organization (company) or change or *organization* (self).’
+    
+    > **Reflection Q: Are there any changes you’re looking forward to in your career— what is one and how would you like to reach that?**
+    > 
+
+### Topic 2: Things Go Wrong Sometimes 😰
+
+- How you deal with issues in an honest way matters.
+- The trust of your team is essential, and it’s tough to regain it after it’s been fractured. Try to take responsibility when things aren’t going to plan on your projects.
+- Offer options instead of excuses. What are some workarounds to your issue, is there anyone we can consult for some insight?
+- When you find yourself saying “idk…,” be sure to add the “but I’ll find out.” Then follow up on it next time!
+
+### Topic 3: Is the Code Buggy (or getting buggier)? 👾
+
+- How do you fight against software entropy? Tip: Fix bugs when you find them as soon as the team can. Avoid reworking more than the issue (or the codebase entirely) because of a few issues.
+    
+    > **Reflection Q: Have you fixed any bugs in work or a project recently? Can you briefly describe the issue and did you end up keeping up with the project/code afterward?**
+    > 
+
+### Topic 4: The Allegories of Stone Soup and Boiled Frogs 🍲
+
+- On ‘Stone Soup’: Make a good base product. then have others suggest improvements. Work with them and let them contribute to the pot. sometimes people try to conserve their resources due to “stand-up fatigue." Speak others curiosity and it may help you. is this a tad manipulative? Yes and that's not necessarily a terrible thing here to get the job done.
+- On Frogs: Don't become a boiled one! Constantly review what's happening around you, not just what you're doing. 🐸
+- Notice your surroundings in the team when you're on a project.
+    
+    > **Reflection Q: What does it mean to become a ‘boiled frog’ to you? If you’ve ever felt stressed over a task, how do you re-evaluate?**
+    > 
+
+### Topic 5: Good-Enough Software 👩‍💻
+
+- It's better to put something out today than it is to entertain the fantasy of some perfect software tomorrow.
+- "Does the program meet the client's requirements?” ✅
+- Don't let the program become lost in its features.
+    
+    > **Reflection Questions:**
+    > 
+    
+    > **Any software you know that suffers from *feature bloat*, specifically?**
+    > 
+
+### Topic 6: Your Knowledge 📈
+
+- Keep improving. Cross-pollinating ideas is important. Try to avoid listening only to media or vendor hype; take information from multiple sources.
+
+Author’s Tips:
+
+- Learn a new language every year.
+- Read a tech-related book every month.
+- Join classes locally or go to trade shows in the field.
+- Experiment with different environments (IDEs, dashboards, etc)
+- Read news about new tech and languages.
+- Consulting trick: Ask ‘why’ five times. For example in evaluating ‘best practices’  ask:
+    - Best for who?
+    - What are the prerequisites?
+    - What are the consequences (short and long-term)?
+    - When or where would this work?
+    - Why is this a problem?
+
+### Topic 7: Communication 🎤
+
+- Work out your audience's priorities. Ask them questions about *them*. Choose a speech style depending on the audience.
+- If you wouldn't say it to someone's face, don't say it online. 🤗
+    
+    > **Reflection Question: Is English (or your native tongue) just another programming language? Why or why not.**
+    >
