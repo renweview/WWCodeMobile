@@ -78,7 +78,7 @@ func printBalance(account: Account) {
 
 # Orthogonality
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/47199bf5-1300-415e-84de-2296fdc54044/Untitled.png)
+<img alt="image" src="https://user-images.githubusercontent.com/50391217/213331248-5ce06f68-a1c9-4fdc-82a1-7c89abc38da2.png">
 
 Two or more things are orthogonal if **changes in one do not affect any of the others**. Also called *cohesion*.
 
