@@ -1,6 +1,7 @@
 # Let’s Talk: Burnout and the Act of Balancing
 
 // Session held on 23rd Feb, 2023
+
 // Facilitated by @Maithili Shetty
 
 // Volunteers - Devanshi, Claudia, Vivian, Fai, Smriti, Betty, Vui, Athina
