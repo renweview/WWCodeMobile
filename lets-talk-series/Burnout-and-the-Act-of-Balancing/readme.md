@@ -6,6 +6,8 @@
 
 // Volunteers - Devanshi, Claudia, Vivian, Fai, Smriti, Betty, Vui, Athina
 
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/50391217/221465822-be58f3ec-2588-4dd6-a180-30e9e386fd7f.png">
+
 
 # 📚Resources on burnout for the session
 
