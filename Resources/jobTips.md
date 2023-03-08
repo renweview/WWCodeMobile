@@ -1,0 +1,8 @@
+Resources for jobs, DEI job resoruces shared by volunteers:
+
+
+1. WWCode's job board: https://www.womenwhocode.com/jobs
+2. iOS Dev Jobs: https://iosdevjobs.com
+3. Diversfy Tech: https://www.diversifytech.com
+4. https://elpha.com
+5. https://www.hiretechladies.com
