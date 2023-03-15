@@ -4,7 +4,7 @@
 
 👉You can start adding solutions to the folders from Session 2 onwards. 
 
-**✅ Use your name in the uploaded folder name! ✅ **
+**✅ Use your name in the uploaded folder name ✅**
 
 An example  could be:
 
