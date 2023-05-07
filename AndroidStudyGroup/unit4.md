@@ -18,12 +18,12 @@ We have 2 ‘pathways’ for this unit, each with interactive coding portions as
 ### 💡 Tips for learners:
 
 <aside>
-👉🏽 Research more on coroutines to get a deeper understanding. You can browse on [Google codelabs] (https://codelabs.developers.google.com/) website.
+👉🏽 Research more on coroutines to get a deeper understanding. You can browse on Google codelabs - https://codelabs.developers.google.com/
 
 </aside>
 
 <aside>
-👉🏽 After finishing the unit, create an app that fetches data from an Api and displays the data to the user. You will be building on top of this app in the coming weeks as we progress in the journey. Here is a list of different API you can use: [Public Apis]( https://github.com/public-apis/public-apis)
+👉🏽 After finishing the unit, create an app that fetches data from an Api and displays the data to the user. You will be building on top of this app in the coming weeks as we progress in the journey. Here is a list of different API you can use: https://github.com/public-apis/public-apis
 
 </aside>
 
