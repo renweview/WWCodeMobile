@@ -27,16 +27,7 @@ We have 5 ‘pathways’ for this unit, each with interactive coding portions as
 
 - What is the difference between data binding and view binding?
 
-## 📚 Additional resources:
-
-- [Navigation between Fragments in Android Studio | Kotlin |](https://www.youtube.com/watch?v=67Xmgqe-wLU&ab_channel=Coder)
-- [Navigation Component - Android Studio Tutorial](https://www.youtube.com/watch?v=DI0NIk-7cz8&list=PLSrm9z4zp4mHilvsfUM3jeCYFV3fTAS3J&ab_channel=Stevdza-San)
-- [Navigation Drawer + Bottom Navigation + Bottom Sheet Dialog in Android Studio | All in one app | UI](https://www.youtube.com/watch?v=ahNruIZX130&ab_channel=AndroidKnowledge)
-- [https://www.geeksforgeeks.org/overview-of-navigation-in-android-architecture-components/](https://www.geeksforgeeks.org/overview-of-navigation-in-android-architecture-components/)
-- [https://www.digitalocean.com/community/tutorials/android-navigation-drawer-example-tutorial](https://www.digitalocean.com/community/tutorials/android-navigation-drawer-example-tutorial)
-- Bonus: [https://kotlinquiz.com/](https://kotlinquiz.com/)
-
-## 👔 Unit 3 Interview Questions:
+## 👔 Interview Questions:
 
 - What are navigation components in Android?
 - How can navigation component be used in activity?
@@ -45,3 +36,12 @@ We have 5 ‘pathways’ for this unit, each with interactive coding portions as
 - What are the two forms of navigation in Android?
 - What are the 3 navigation buttons Android?
 - Bonus links for android interview questions in general: [https://proandroiddev.com/modern-android-interview-questions-f2b9889102ee](https://proandroiddev.com/modern-android-interview-questions-f2b9889102ee)
+
+## 📚 Additional resources:
+
+- [Navigation between Fragments in Android Studio | Kotlin |](https://www.youtube.com/watch?v=67Xmgqe-wLU&ab_channel=Coder)
+- [Navigation Component - Android Studio Tutorial](https://www.youtube.com/watch?v=DI0NIk-7cz8&list=PLSrm9z4zp4mHilvsfUM3jeCYFV3fTAS3J&ab_channel=Stevdza-San)
+- [Navigation Drawer + Bottom Navigation + Bottom Sheet Dialog in Android Studio | All in one app | UI](https://www.youtube.com/watch?v=ahNruIZX130&ab_channel=AndroidKnowledge)
+- [https://www.geeksforgeeks.org/overview-of-navigation-in-android-architecture-components/](https://www.geeksforgeeks.org/overview-of-navigation-in-android-architecture-components/)
+- [https://www.digitalocean.com/community/tutorials/android-navigation-drawer-example-tutorial](https://www.digitalocean.com/community/tutorials/android-navigation-drawer-example-tutorial)
+- Bonus: [https://kotlinquiz.com/](https://kotlinquiz.com/)
