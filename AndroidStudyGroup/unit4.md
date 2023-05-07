@@ -4,7 +4,7 @@
 
 ### 🔗 Unit 4 Link:
 
-This unit is based on  [https://developer.android.com/courses/android-basics-kotlin/unit-4](https://www.notion.so/Resources-for-Android-Basics-in-Kotlin-26181ba7ec654fda817f7e4238362d75)
+This unit is based on [Android Basics Kotlin - Unit 4](https://developer.android.com/courses/android-basics-kotlin/unit-4) 
 
 ## 📝 NOTES:
 
@@ -23,7 +23,7 @@ We have 2 ‘pathways’ for this unit, each with interactive coding portions as
 </aside>
 
 <aside>
-👉🏽 After finishing the unit, create an app that fetches data from an Api and displays the data to the user. You will be building on top of this app in the coming weeks as we progress in the journey. Here is a list of different API you can use: [Public Apis](https://github.com/public-apis/public-apis/)
+👉🏽 After finishing the unit, create an app that fetches data from an Api and displays the data to the user. You will be building on top of this app in the coming weeks as we progress in the journey. Here is a list of different API you can use: [Public Apis](https://github.com/public-apis/public-apis)
 
 </aside>
 
