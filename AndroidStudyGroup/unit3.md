@@ -36,7 +36,7 @@ We have 5 ‘pathways’ for this unit, each with interactive coding portions as
 - [https://www.digitalocean.com/community/tutorials/android-navigation-drawer-example-tutorial](https://www.digitalocean.com/community/tutorials/android-navigation-drawer-example-tutorial)
 - Bonus: [https://kotlinquiz.com/](https://kotlinquiz.com/)
 
-## 👔 Unit 1 Interview Questions:
+## 👔 Unit 3 Interview Questions:
 
 - What are navigation components in Android?
 - How can navigation component be used in activity?
