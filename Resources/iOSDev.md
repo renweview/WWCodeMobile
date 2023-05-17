@@ -13,13 +13,17 @@
 1. [WWCode Mobile's SwiftUI series (10 sessions) led by Betty](https://www.youtube.com/watch?v=j5_oS_kkiCQ&list=PLVcEZG2JPVhcMJfVsMy0w1FbnAQVoGUy9&index=36)
 2. [https://azamsharp.com/2023/02/28/building-large-scale-apps-swiftui.html](https://azamsharp.com/2023/02/28/building-large-scale-apps-swiftui.html)
 
-## Combine:
+## Reactive Programming: Combine / RxSwift
 
 1. Book: [https://www.amazon.com/Asynchronous-Programming-SwiftUI-Combine-Functional/dp/1484285719](https://www.amazon.com/Asynchronous-Programming-SwiftUI-Combine-Functional/dp/1484285719)
 
 ## Design Patterns:
 
 1. [https://refactoring.guru/design-patterns/swift](https://refactoring.guru/design-patterns/swift)
+
+## Testing:
+
+1. [Testing purchases on Debug builds](https://medium.com/@namaswic/testing-in-app-purchases-on-xcode-during-development-b2a6c6d5ce5c)
 
 ## Job Tips:
 
