@@ -7,7 +7,7 @@
 
 1. [https://www.hackingwithswift.com/articles/148/xcode-ui-testing-cheat-sheet](https://www.hackingwithswift.com/articles/148/xcode-ui-testing-cheat-sheet)
 2. [Swift under the hood: Optionals by Farhana](https://levelup.gitconnected.com/swift-under-the-hood-optionals-64d6639cecf8)
-
+3. [Overcoming the Challenges of iOS Mobile Development, April 2023] (https://www.youtube.com/watch?v=QB4818iAk9w&list=PLVcEZG2JPVhcMJfVsMy0w1FbnAQVoGUy9)
 ## SwiftUI
 
 1. [WWCode Mobile's SwiftUI series (10 sessions) led by Betty](https://www.youtube.com/watch?v=j5_oS_kkiCQ&list=PLVcEZG2JPVhcMJfVsMy0w1FbnAQVoGUy9&index=36)
