@@ -15,7 +15,7 @@
 
 ## Reactive Programming: Combine / RxSwift
 
-1. Book: [https://www.amazon.com/Asynchronous-Programming-SwiftUI-Combine-Functional/dp/1484285719](https://www.amazon.com/Asynchronous-Programming-SwiftUI-Combine-Functional/dp/1484285719)
+1. [Book: Asynchronous Programming with SwiftUI and Combine](https://www.amazon.com/Asynchronous-Programming-SwiftUI-Combine-Functional/dp/1484285719)
 
 ## Design Patterns:
 
