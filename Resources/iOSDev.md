@@ -12,6 +12,7 @@
 
 1. [WWCode Mobile's SwiftUI series (10 sessions) led by Betty](https://www.youtube.com/watch?v=j5_oS_kkiCQ&list=PLVcEZG2JPVhcMJfVsMy0w1FbnAQVoGUy9&index=36)
 2. [https://azamsharp.com/2023/02/28/building-large-scale-apps-swiftui.html](https://azamsharp.com/2023/02/28/building-large-scale-apps-swiftui.html)
+3. [iOS Weekly - Issue 69 - compilation of SwiftUI resources](https://blog.canopas.com/ios-stack-weekly-issue-69-cb9995bbbd27)
 
 ## Reactive Programming: Combine / RxSwift
 
@@ -24,6 +25,10 @@
 ## Testing:
 
 1. [Testing purchases on Debug builds by Namaswi Chandrana](https://medium.com/@namaswic/testing-in-app-purchases-on-xcode-during-development-b2a6c6d5ce5c)
+
+## App store:
+
+1. [Parse IOS AppStore Receipts using ASN1Decoder by Namaswi Chandrana](https://levelup.gitconnected.com/parse-ios-appstore-receipts-using-asn1decoder-f375e6fd6128)
 
 ## Job Tips:
 
