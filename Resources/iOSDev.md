@@ -23,7 +23,7 @@
 
 ## Testing:
 
-1. [Testing purchases on Debug builds](https://medium.com/@namaswic/testing-in-app-purchases-on-xcode-during-development-b2a6c6d5ce5c)
+1. [Testing purchases on Debug builds by Namaswi Chandrana](https://medium.com/@namaswic/testing-in-app-purchases-on-xcode-during-development-b2a6c6d5ce5c)
 
 ## Job Tips:
 
