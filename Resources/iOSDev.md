@@ -8,11 +8,12 @@
 1. [https://www.hackingwithswift.com/articles/148/xcode-ui-testing-cheat-sheet](https://www.hackingwithswift.com/articles/148/xcode-ui-testing-cheat-sheet)
 2. [Swift under the hood: Optionals by Farhana](https://levelup.gitconnected.com/swift-under-the-hood-optionals-64d6639cecf8)
 3. [Overcoming the Challenges of iOS Mobile Development, April 2023] (https://www.youtube.com/watch?v=QB4818iAk9w&list=PLVcEZG2JPVhcMJfVsMy0w1FbnAQVoGUy9)
+
 ## SwiftUI
 
 1. [WWCode Mobile's SwiftUI series (10 sessions) led by Betty](https://www.youtube.com/watch?v=j5_oS_kkiCQ&list=PLVcEZG2JPVhcMJfVsMy0w1FbnAQVoGUy9&index=36)
 2. [https://azamsharp.com/2023/02/28/building-large-scale-apps-swiftui.html](https://azamsharp.com/2023/02/28/building-large-scale-apps-swiftui.html)
-3. [iOS Weekly - Issue 69 - compilation of SwiftUI resources](https://blog.canopas.com/ios-stack-weekly-issue-69-cb9995bbbd27)
+3. [iOS Weekly - Issue 69 - compilation of SwiftUI resources] (https://blog.canopas.com/ios-stack-weekly-issue-69-cb9995bbbd27)
 
 ## Reactive Programming: Combine / RxSwift
 
@@ -38,6 +39,10 @@
 ## Courses:
 
 1. [https://iosacceleratorprogram.lifepathtc.com/free-ios-accelerator-program-mini-course](https://iosacceleratorprogram.lifepathtc.com/free-ios-accelerator-program-mini-course)
+
+## AI:
+
+1. [Co pilot for Xcode] (https://github.com/intitni/CopilotForXcode)
 
 ## Others:
 
