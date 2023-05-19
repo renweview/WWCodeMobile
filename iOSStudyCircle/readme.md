@@ -1,4 +1,6 @@
-👋Hey folks! Thanks for sharing your solutions for the iOS Study Circle. 🍏
+👋Hey folks! Thanks for sharing your solutions for the iOS Study Circle. 🍏 
+
+[👉Check out the details for OUR project here 👀](https://github.com/WomenWhoCode/WWCodeMobile/tree/master/iOSStudyCircle/Project1) 
 
 👀 The first session that was held on March 3rd was a planning session / meet and greet - so leaving that folder empty for consistency sake!
 
