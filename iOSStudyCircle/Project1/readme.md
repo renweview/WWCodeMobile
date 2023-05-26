@@ -1,6 +1,8 @@
-After having gone through 13 chapters on Combine and SwiftUI these past 11 sessions, let’s get some hands on practise! 👩🏻‍💻
+After having gone through part 1 and 2 of the book _("Asynchronous Programming with SwiftUI with Combine" by Peter Friese)_ in our previous sessions, let’s get some hands on practise with Combine!
 
-We will work on 🌦️ [this Weather app](https://github.com/kroshkaEvan/Weather) and convert it into Combine. Also, this would be a great way to review SwiftUI with MVVM.🤩
+If you have haven't read the book / attended our sessions, but have some idea of Combine, we encourage you to try this coding challenge and join us in our discussion session on June 2nd 👩🏻‍💻
+
+We will work on 🌦️ [this Weather app](https://github.com/kroshkaEvan/Weather) and refactor it with Combine. Also, this would be a great way to review SwiftUI with MVVM.🤩
 
 You can share your project solutions inside this folder :) 
 
@@ -17,3 +19,7 @@ You can share your project solutions inside this folder :)
 Register for our discussion Zoom session on June 2nd on the [WWCode Mobile events page](https://www.womenwhocode.com/mobile/events)
 
 Good luck!
+
+<img width="1050" alt="image" src="https://github.com/WomenWhoCode/WWCodeMobile/assets/50391217/1ac8ceaf-ddf0-46d2-a11a-6e6a2dddef4b">
+
+
