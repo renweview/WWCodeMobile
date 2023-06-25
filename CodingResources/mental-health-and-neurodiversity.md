@@ -2,6 +2,7 @@
 
 > Mental health and neurodiversity resource recommendations from volunteers and members on the WWCode Mobile Slack channels - #mental-heath-and-neurodiversity and #self-care
 
+## General:
 - [What Is Neurodivergence?](https://www.weforum.org/agenda/2022/10/explainer-neurodivergence-mental-health/)
 - [Neurodiversity Design System - design accessible learning interfaces supporting success and achievement for everyone](https://www.neurodiversity.design)
 - [Managers Have Major Impact On Mental Health: How To Lead For Wellbeing](https://www.forbes.com/sites/tracybrower/2023/01/29/managers-have-major-impact-on-mental-health-how-to-lead-for-wellbeing/)
