@@ -2,7 +2,7 @@
 
 > Cross Platform development resource recommendations from volunteers and members on the WWCode Mobile Slack channel - #cross-platform
 
-## React Native
+## React Native:
 - [Udemy: The Complete React Native Course](https://www.udemy.com/course/the-complete-react-native-course-from-zero-to-hero/?couponCode=MASH2023FREE)
 
 ## Flutter:

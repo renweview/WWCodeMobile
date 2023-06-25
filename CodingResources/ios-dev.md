@@ -12,7 +12,7 @@
 - [Overcoming the Challenges of iOS Mobile Development, April 2023](https://www.youtube.com/watch?v=QB4818iAk9w&list=PLVcEZG2JPVhcMJfVsMy0w1FbnAQVoGUy9)
 - [freeCodeCamp - Learn the Swift Programming Language](https://www.freecodecamp.org/news/learn-the-swift-programming-language/)
 
-## SwiftUI
+## SwiftUI:
 
 - [100 Days of SwiftUI - free collection of videos, tutorials, tests, and more](https://www.hackingwithswift.com/100/swiftui)
 - [Sean Allen YouTube Tutorial Channel - SwiftUI Basics Tutorial](https://www.youtube.com/watch?v=HXoVSbwWUIk&list=PL8seg1JPkqgHyWCBHwXGmfysQpEQTfC3z&ab_channel=SeanAllen)
@@ -21,7 +21,7 @@
 - [iOS Weekly - Issue 69 - compilation of SwiftUI resources](https://blog.canopas.com/ios-stack-weekly-issue-69-cb9995bbbd27)
 - [Keyboard types in SwiftUI](https://twitter.com/ios_dev_alb/status/1658594088340398080?s=46&t=x5WT-cP9Z0AgyHYs-TiMWw)
 
-## Reactive Programming: Combine / RxSwift
+## Reactive Programming - Combine / RxSwift:
 
 - [Book: Asynchronous Programming with SwiftUI and Combine](https://www.amazon.com/Asynchronous-Programming-SwiftUI-Combine-Functional/dp/1484285719)
 - [Using map, flatMap, and compactMap in Combine](https://www.donnywals.com/using-map-flatmap-and-compactmap-in-combine/)

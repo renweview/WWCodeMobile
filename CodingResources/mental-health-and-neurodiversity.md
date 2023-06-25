@@ -12,7 +12,7 @@
 - [WWCode Mobile Session - Coding and Mental Illness: A Survival Guide](https://www.youtube.com/watch?v=mikmcc5YdSQ&ab_channel=WomenWhoCode)
 - [WWCode Mobile Session - Let's Talk: Burnout and the Act of Balancing](https://github.com/WomenWhoCode/WWCodeMobile/tree/master/lets-talk-series/Burnout-and-the-Act-of-Balancing)
 
-## Self-care
+## Self-care:
 - [Spring-clean your life! 20 ways to discrad the emotional baggage that's holding you back](https://www.theguardian.com/lifeandstyle/2023/apr/10/spring-clean-your-life-20-ways-to-discard-the-emotional-baggage-thats-holding-you-back)
 - [Envisioning Your Future - an introduction to vision boards](https://www.smritidas.com/blog/visionboard/)
 - [TED Talk - just because you might like to know drama doesn't mean you need to be the drama](https://www.linkedin.com/posts/ted-conferences_just-because-you-might-like-to-know-drama-activity-7059210457525432321-bWJh/?utm_source=share&utm_medium=member_ios)
