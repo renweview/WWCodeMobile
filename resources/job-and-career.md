@@ -14,7 +14,7 @@
 - [iOS Dev Jobs](https://iosdevjobs.com)
 - [Open Source Queens](https://app.daily.dev/squads/opensourcequeens/ay9Tv4cYCMwzSIGvILfxHhqIuetuDIeO1jJ9o80h6hg) - a daily.dev squad where women and non-binary maintainers, contributors, and founders can share content about their experiences in the open source community
 
-# Accessibility:
+## Accessibility:
 - [EARN(Employer Assistance and Resource Network on Disability Inclusion)](https://askearn.org/) - a resource for organizations on recruiting employees with disabilities
 - [Designing For Accessibility Is Not That Hard - Pablo Stanley](https://uxdesign.cc/designing-for-accessibility-is-not-that-hard-c04cc4779d94)
 
