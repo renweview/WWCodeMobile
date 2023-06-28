@@ -25,7 +25,7 @@
 
 ## Reactive Programming - Combine / RxSwift:
 
-- [Book: Asynchronous Programming with SwiftUI and Combine - Peter Friese](https://www.amazon.com/Asynchronous-Programming-SwiftUI-Combine-Functional/dp/1484285719)
+- [Asynchronous Programming with SwiftUI and Combine - Peter Friese](https://www.amazon.com/Asynchronous-Programming-SwiftUI-Combine-Functional/dp/1484285719) (Book)
 - [Using map, flatMap, and compactMap in Combine - Donny Wals](https://www.donnywals.com/using-map-flatmap-and-compactmap-in-combine/)
 - [When to Use Combine's TryMap Instead of Map - Cocoacasts](https://cocoacasts.com/combine-essentials-when-to-use-combine-trymap-instead-of-map)
 - [Getting Started with Combine Framework in Swift: Introduction to Functional Reactive Programming - Karin Prater](https://www.youtube.com/watch?v=tbzR-eHr6oo&list=PLWHegwAgjOkoIMgZ7QF_SHUtEB_rWXtH0&ab_channel=KarinPrater)
