@@ -21,3 +21,6 @@
 ## Career Growth:
 - [10 Things to Do When Starting a New Job](https://www.danijelavrzan.com/posts/2023/04/start-new-job/)
 - [TECHSket - provides free and trusted educational resources to break down barriers in STEM fields](https://techsket.com/)
+- [Barbara Oakley and Olav Schewe - Learn Like a Pro: Science-Based Tools to Become Better at Anything](https://www.amazon.ca/Learn-Like-Pro-Science-Based-Anything/dp/1250799376) - Book
+- [Barbara Oakley - Learning How to Learn: Powerful Mental Tools To Help You Master Tough Subjects](https://www.coursera.org/learn/learning-how-to-learn) - MOOC
+- [Scott Young and James Clear - Ultralearning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career](https://www.barnesandnoble.com/w/ultralearning-scott-young/1130636797) - Book

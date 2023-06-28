@@ -1,13 +1,13 @@
 # Contributing Guidelines
 
-First and foremost thanks for your contributions!!! :sparkling_heart::sparkling_heart:   
+First and foremost thanks for your contributions!!! :sparkling_heart::sparkling_heart:
 
 If you have resources you would like to share from your event or resources you think our community would benefit from keep reading!
 
 ## Pre-Reqs
 
-1.  :book: Read up on fork & pull request models
-2. 🍴 Fork this repo or pull from upstream to get the latest.  
+1. 📖 Read up on fork & pull request models
+2. 🍴 Fork this repo or pull from upstream to get the latest.
 3. 🔨 Follow the contributing guidelines below
 4. 👥 Add yourself as a contributor under the credits section
 5. 🔧 Make a pull request
@@ -24,7 +24,7 @@ If you have resources you would like to share from your event or resources you t
     ```
 2. Upload the event graphic to the [images](docs/images) directory.
 
-3. Copy and paste a new table entry **at the top** in the [README](README.md#event-resources). Fill in the applicable details. **Be sure to double check everything was updated.** Also be mindful of style and formatting.  
+3. Copy and paste a new table entry **at the top** in the [README](README.md#event-resources). Fill in the applicable details. **Be sure to double check everything was updated.** Also be mindful of style and formatting.
 
 
 
@@ -34,19 +34,19 @@ If you have resources you would like to share from your event or resources you t
 
 
 
-    a) Image `href` should point to `$REPO_URL` from _step 1_ (this could also be a link to slides if the speaker wanted to share those without a repo.)   
+    a) Image `href` should point to `$REPO_URL` from _step 1_ (this could also be a link to slides if the speaker wanted to share those without a repo.)
 
-    b) Image `alt` should be the `EVENT_TITLE`  
+    b) Image `alt` should be the `EVENT_TITLE`
 
-    c) Image `src` should be the relative path to the uploaded image from _step 2_   
+    c) Image `src` should be the relative path to the uploaded image from _step 2_
 
-    d) Update the `EVENT_TITLE` in the description box    
+    d) Update the `EVENT_TITLE` in the description box
 
-    e) Update the `EVENT_DESCRIPTION` with zoom description  
+    e) Update the `EVENT_DESCRIPTION` with zoom description
 
-    f) Update the `SLIDE_LINK` with url to slides (if speaker has shared) and `VIDEO_LINK` with the youtube url  
+    f) Update the `SLIDE_LINK` with url to slides (if speaker has shared) and `VIDEO_LINK` with the youtube url
 
-    g) Update the `SPEAKER_NAME` & `SPEAKER_TITLE`  
+    g) Update the `SPEAKER_NAME` & `SPEAKER_TITLE`
 
 
 
