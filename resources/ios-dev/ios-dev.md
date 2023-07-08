@@ -65,3 +65,4 @@
 ## Others:
 
 - [Flutter for iOS developers - Leigha Jarett](https://www.linkedin.com/posts/leighajarett_flutter-for-ios-developers-activity-7013974310314758144-L4si?utm_source=share&utm_medium=member_ios)
+[Mastering UI Testing: Opening System Settings and Verifying App UI in iOS - Namaswi Chandrana](https://levelup.gitconnected.com/mastering-ui-testing-opening-system-settings-and-verifying-app-ui-in-ios-e0b5c5f1d3c2)
