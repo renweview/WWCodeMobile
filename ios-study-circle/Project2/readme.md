@@ -18,4 +18,5 @@ or anything else - feel free to share some other concerns we ought to consider ð
 
 Register for our discussion Zoom session on June 2nd on the WWCode Mobile events page
 
-Good luck!
+Good luck!![final (4)](https://github.com/WomenWhoCode/WWCodeMobile/assets/50391217/914d04d1-483f-4d74-b0e7-4cfd03b6f937)
+
