@@ -37,3 +37,16 @@ Improving the user interface of your app by learning about the different android
 - https://guides.codepath.com/android/endless-scrolling-with-adapterviews-and-recyclerview
 
 Here is a website for Android Developers: https://guides.codepath.com/android
+
+## 👔 Unit 2 Interview Questions:
+
+1. Explain inheritance in kotlin
+2. Are classes Final or open by default?
+3. Explain abstract classes in kotlin
+4. What is the difference between a Constraint Layout and RelativeLayout?
+5. What is the benefit of extracting the strings?
+6. Which constrainsts to use Start and end vs left and right? And Why?
+7. Explain Chains in constraint layout
+8. What happens when you rotate an android device?
+9. Explain different loops in kotlin
+10. Explain Collections in kotlin
