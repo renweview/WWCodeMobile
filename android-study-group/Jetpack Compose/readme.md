@@ -1,6 +1,12 @@
-**JOIN our** [final session](https://www.womenwhocode.com/mobile/events) **for the Android Study Group for trivia and a chance to win! Tuesday at 12 pm ET.**<img width="1734" alt="image" src="https://github.com/WomenWhoCode/WWCodeMobile/assets/50391217/e2ea47bb-585d-4106-9686-fdfcf8169d63">
+Hey Android Devs! 👋 Let’s learn JETPACK COMPOSE together 
 
-Resources for the Android Study Group will be shared here. The sessions are hosted on Zoom and Slack.
-Faciliators: Gauri Gadkari, Selen Demir, Jane Waitara and Ren Wahed.
+This series will be based on this [Google Codelabs](https://developer.android.com/codelabs/jetpack-compose-basics#0). Our approach is a hybrid one - we will discuss the content on **Slack** and **Zoom** meetings.
 
-The first series of the study circle was based on the codelab: https://developer.android.com/courses/android-basics-kotlin/course?gclid=EAIaIQobChMI6MvpxYH__gIVXcnjBx0ArQkmEAAYASAAEgISI_D_BwE&gclsrc=aw.ds
+Our plan is to go over a new unit every couple of weeks and we will share our notes on Slack on the channel (`#Android-Study-Group`) on this Github repo. You are encouraged to discuss the unit, share your progress, ask questions and learn together! We will announce our Zoom meetings and session on social media and slack.
+
+## Summary of Links:
+
+- Join the WWCode **MOBILE** Slack group https://www.womenwhocode.com/join-slack/
+    - Join the #android-study-group channel
+- Social media and all our links can be found on our [Beacons](https://beacons.ai/wwcodemobile) page
+- Google codelabs being used for the series: https://developer.android.com/codelabs/jetpack-compose-basics#0
