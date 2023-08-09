@@ -4,7 +4,7 @@
 
 // Facilitated by Navati Jain, Jackie Chan, Maithili Shetty, Anu Mittal
 
-
+<img width="400" alt="image" src="https://github.com/jackiechanmakes/wwcode-mobile/assets/30218544/711b8683-38f9-4bec-8eec-e3dfda887334">
 
 # 📚Resources on self-advocacy
 
