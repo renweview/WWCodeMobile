@@ -8,20 +8,23 @@
 - [CodeWithChris YouTube Tutorial Channel](https://www.youtube.com/c/CodeWithChris/playlists) - the simplest way to learn iOS app development
 - [Xcode UI Testing Cheat Sheet - Hacking with Swift](https://www.hackingwithswift.com/articles/148/xcode-ui-testing-cheat-sheet)
 - [Xcode Cheat Sheet - LeCoupa](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/tools/xcode.txt)
+- [WWCode Mobile: Reducing Compile Times in Xcode - The Struggle is Real! - Scott Larose](https://www.youtube.com/watch?v=nk0wPpYHogY&list=PLVcEZG2JPVhcMJfVsMy0w1FbnAQVoGUy9&index=19)
 - [Swift Under The Hood: Optionals - Farhana Mustafa](https://levelup.gitconnected.com/swift-under-the-hood-optionals-64d6639cecf8)
 - [Overcoming the Challenges of iOS Mobile Development - Izzy Briant](https://www.youtube.com/watch?v=QB4818iAk9w&list=PLVcEZG2JPVhcMJfVsMy0w1FbnAQVoGUy9)
 - [Learn the Swift Programming Language - freeCodeCamp](https://www.freecodecamp.org/news/learn-the-swift-programming-language/)
 - [13 Tips to Write Code Like a Swiftie - Mikaela Caron](https://www.youtube.com/watch?v=4hVyozTOSTo&feature=youtu.be&ab_channel=MikaelaCaron)
 - [Learn And Code With Enid](https://www.learnandcodewithenid.com/)
+- [WWCode Mobile: iOS Study Circle (Asynchronous Programming with SwiftUI) playlist - Monika Gorkani](https://www.youtube.com/watch?v=mtA6eie1Dsw&list=PLVcEZG2JPVhcMJfVsMy0w1FbnAQVoGUy9&index=14)
 
 ## SwiftUI:
 
 - [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui) - free collection of videos, tutorials, tests, and more
 - [SwiftUI Basics Tutorial - Sean Allen YouTube Tutorial Channel](https://www.youtube.com/watch?v=HXoVSbwWUIk&list=PL8seg1JPkqgHyWCBHwXGmfysQpEQTfC3z&ab_channel=SeanAllen)
-- [WWCode Mobile SwiftUI Series (10 sessions) - Betty Godier](https://www.youtube.com/watch?v=j5_oS_kkiCQ&list=PLVcEZG2JPVhcMJfVsMy0w1FbnAQVoGUy9&index=36)
+- [WWCode Mobile: SwiftUI Series (10 sessions) - Betty Godier](https://www.youtube.com/watch?v=j5_oS_kkiCQ&list=PLVcEZG2JPVhcMJfVsMy0w1FbnAQVoGUy9&index=36)
 - [Building Large-Scale Apps with SwiftUI: A Guide to Modular Architecture - Mohammad Azam](https://azamsharp.com/2023/02/28/building-large-scale-apps-swiftui.html)
 - [Compilation of SwiftUI Resources - iOS Weekly](https://blog.canopas.com/ios-stack-weekly-issue-69-cb9995bbbd27)
 - [Keyboard Types in SwiftUI - Enid](https://twitter.com/ios_dev_alb/status/1658594088340398080?s=46&t=x5WT-cP9Z0AgyHYs-TiMWw)
+- [WWCode Mobile Summit 2022: Integrating UIKit with SwiftUI - Natalia Panferova](https://www.youtube.com/watch?v=V0rGxB4tIqk&list=PLVcEZG2JPVhcMJfVsMy0w1FbnAQVoGUy9&index=35)
 
 ## Reactive Programming - Combine / RxSwift:
 
