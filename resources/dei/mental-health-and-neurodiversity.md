@@ -13,6 +13,7 @@
 - [WWCode Mobile Session - Let's Talk: Burnout and the Act of Balancing](https://github.com/WomenWhoCode/WWCodeMobile/tree/master/lets-talk-series/Burnout-and-the-Act-of-Balancing)
 
 ## Self-care:
+- [App: How We Feel - The How We Feel Project, Inc.](https://apps.apple.com/app/id1562706384) - created by scientists, designers, engineers, and therapists to help people better understand their emotions and find strategies to help them navigate their emotions in the moment
 - [Spring-clean your life! 20 ways to discrad the emotional baggage that's holding you back - Lizzie Cernik](https://www.theguardian.com/lifeandstyle/2023/apr/10/spring-clean-your-life-20-ways-to-discard-the-emotional-baggage-thats-holding-you-back)
 - [Envisioning Your Future - Smriti Das](https://www.smritidas.com/blog/visionboard/) - an introduction to vision boards
 - [TED Talk - Anastasia Penright](https://www.linkedin.com/posts/ted-conferences_just-because-you-might-like-to-know-drama-activity-7059210457525432321-bWJh/?utm_source=share&utm_medium=member_ios) - just because you might like to know drama doesn't mean you need to be the drama
