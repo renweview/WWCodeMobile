@@ -1,6 +1,6 @@
-# projects
+# Coding Projects
 
-The projects directory contains folders for several coding projects and a resources folder.
+The coding-projects directory contains folders for several coding projects and a resources folder.
 
 projects:
 
@@ -8,6 +8,6 @@ projects:
 
 - /android : contains code and additional resources for the Android project
 
-- /ios : contains code and additional resources for the iOS projects
+- /ios : contains code and additional resources for the iOS project
 
-- /mobile-game: contains code and additional resources for the mobile game project
+- /mobile-game : contains code and additional resources for the mobile game project

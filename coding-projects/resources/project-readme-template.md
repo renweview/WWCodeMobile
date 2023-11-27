@@ -1,4 +1,4 @@
-# project-xyz
+# Project XYZ
 
 TODO: Create a README template that can be used for all the coding projects.
 

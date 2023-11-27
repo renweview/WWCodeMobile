@@ -1,4 +1,4 @@
-# Android project
+# Android Project
 
 TODO: Write out this README file to provide more information about this Android coding project.
 

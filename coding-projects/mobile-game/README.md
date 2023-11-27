@@ -1,4 +1,4 @@
-# mobile game project
+# Mobile Game Project
 
 TODO: Write out this README file to provide more information about this mobile game coding project.
 
