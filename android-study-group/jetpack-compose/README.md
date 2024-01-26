@@ -12,3 +12,9 @@ Our plan is to go over a new unit every couple of weeks and we will share our no
 - Google codelabs being used for the series: https://developer.android.com/codelabs/jetpack-compose-basics#0
 
 ![jetpack compose (1)](https://github.com/WomenWhoCode/WWCodeMobile/assets/50391217/a0002669-2870-47ff-b5ae-6faef28fa6c2)
+
+Contributors:  
+- Selen Demir 
+- Ren Wahed 
+- Gauri Gadkari 
+- Jane Waitara 
