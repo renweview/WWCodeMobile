@@ -86,7 +86,7 @@ class TaskDetailScreen {
             }
 
             LabelButtonRow(
-                label = stringResource(id = R.string.date_label),
+                label = stringResource(id = R.string.date_label).uppercase(),
                 buttonInfo = "JAN 29 2024"
             ) {}
             var textState by remember { mutableStateOf("") }
@@ -107,17 +107,18 @@ class TaskDetailScreen {
                     focusedLabelColor = Color.Gray,
                     textColor = Color.Black,
                     containerColor = Color.White,
-                    focusedIndicatorColor = Color.Black,
-                    unfocusedIndicatorColor = Color.Gray
+                    focusedIndicatorColor = Color.Transparent,
+                    unfocusedIndicatorColor = Color.Transparent,
+                    disabledIndicatorColor = Color.Transparent
                 ),
             )
 
             LabelButtonRow(
-                label = stringResource(id = R.string.start_time_label),
+                label = stringResource(id = R.string.start_time_label).uppercase(),
                 buttonInfo = "08:22:10"
             ) {}
             LabelButtonRow(
-                label = stringResource(id = R.string.end_time_label),
+                label = stringResource(id = R.string.end_time_label).uppercase(),
                 buttonInfo = "09:12:01"
             ) {}
 
@@ -132,7 +133,7 @@ class TaskDetailScreen {
                     .padding(top = 50.dp, bottom = 8.dp),
                 contentPadding = PaddingValues(horizontal = 40.dp, vertical = 5.dp)
             ) {
-                Text(text = stringResource(id = R.string.done))
+                Text(text = stringResource(id = R.string.done).uppercase())
             }
         }
     }
