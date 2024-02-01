@@ -23,7 +23,8 @@ struct SettingsView: View {
 
                 // TODO: Add Section Header: Notifications #106
                 Section {
-                    // TODO: Add Days with Day bubbles #120
+                    DaysView()
+
                     // TODO: Add Task Reminder Row (with toggle) #118
                     // TODO: Add Show Badge Row (with toggle) #119
                     // TODO: Add Reminder Time #121
@@ -42,8 +43,31 @@ struct SettingsView: View {
                 }
 
             }
+            .navigationBarTitle("Settings")
         }
-        // TODO: Add navigation title to settings view #104
+    }
+}
+
+private struct DaysView: View {
+    let title: String = "Show Days"
+    let days = Calendar.current.shortWeekdaySymbols
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 20) {
+            Text(title)
+            HStack {
+                ForEach(days, id: \.self) { day in
+                    ZStack {
+                        Circle()
+                            .opacity(0.5)
+                        Text(day.prefix(1))
+                            .font(.subheadline)
+                            .foregroundStyle(.white)
+                            .frame(width: 20, height: 20, alignment: .center)
+                    }
+                }
+            }
+        }
     }
 }
 
