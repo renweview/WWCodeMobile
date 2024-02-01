@@ -27,7 +27,7 @@ struct SettingsView: View {
 
                     // TODO: Add Task Reminder Row (with toggle) #118
                     // TODO: Add Show Badge Row (with toggle) #119
-                    // TODO: Add Reminder Time #121
+                    ReminderTimeView()
                 }
 
                 // TODO: Add Section Header: What's New #107
@@ -51,7 +51,7 @@ struct SettingsView: View {
 private struct DaysView: View {
     let title: String = "Show Days"
     let days = Calendar.current.shortWeekdaySymbols
-
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             Text(title)
@@ -67,6 +67,16 @@ private struct DaysView: View {
                     }
                 }
             }
+        }
+    }
+}
+
+private struct ReminderTimeView: View {
+    var body: some View {
+        HStack{
+            Text("REMINDER TIME")
+            Spacer()
+            Text("7:00 PM")
         }
     }
 }
