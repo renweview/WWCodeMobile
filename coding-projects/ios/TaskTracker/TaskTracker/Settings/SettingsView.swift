@@ -74,7 +74,7 @@ private struct DaysView: View {
 private struct ReminderTimeView: View {
     var body: some View {
         HStack{
-            Text("REMINDER TIME")
+            Text("Reminder Time")
             Spacer()
             Text("7:00 PM")
         }
