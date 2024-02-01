@@ -42,8 +42,8 @@ struct SettingsView: View {
                 }
 
             }
+            .navigationBarTitle("Settings")
         }
-        // TODO: Add navigation title to settings view #104
     }
 }
 
