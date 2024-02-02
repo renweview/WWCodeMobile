@@ -38,7 +38,7 @@ struct SettingsView: View {
 
                 // TODO: Add Section Header: Appearance #108
                 Section {
-                    // TODO: Add App Theme Row #116
+                    ThemeView()
                     // TODO: App Icon #117
                 }
 
@@ -67,6 +67,20 @@ private struct DaysView: View {
                     }
                 }
             }
+        }
+    }
+}
+
+private struct ThemeView: View {
+    var body: some View {
+        HStack {
+            Image(systemName: "paintbrush")
+                .foregroundColor(.purple)
+                .font(Font.body.weight(.regular))
+                .imageScale(.large)
+            Text("App Theme")
+            Spacer()
+            Image(systemName: "chevron.right")
         }
     }
 }
