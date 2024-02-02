@@ -85,29 +85,6 @@ private struct ThemeView: View {
     }
 }
 
-private struct DaysView: View {
-    let title: String = "Show Days"
-    let days = Calendar.current.shortWeekdaySymbols
-    
-    var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            Text(title)
-            HStack {
-                ForEach(days, id: \.self) { day in
-                    ZStack {
-                        Circle()
-                            .opacity(0.5)
-                        Text(day.prefix(1))
-                            .font(.subheadline)
-                            .foregroundStyle(.white)
-                            .frame(width: 20, height: 20, alignment: .center)
-                    }
-                }
-            }
-        }
-    }
-}
-
 private struct ReminderTimeView: View {
     var body: some View {
         HStack{
