@@ -11,7 +11,6 @@ struct SettingsView: View {
     var body: some View {
         NavigationView {
             Form {
-                // TODO: Add Section Header: Info and Feedback #105
                 // TODO: Add version number footer #122
                 Section {
                     // TODO: Add About us row #109
@@ -19,6 +18,10 @@ struct SettingsView: View {
                     // TODO: Add Tutorial row #111
                     // TODO: Add Rate App row #112
                     // TODO: Add follow us on twitter row #113
+                } header: {
+                    Label("Info & Feedback", systemImage: "info.bubble.fill")
+                        .font(.subheadline)
+                        .fontWeight(.bold)
                 }
 
                 // TODO: Add Section Header: Notifications #106
