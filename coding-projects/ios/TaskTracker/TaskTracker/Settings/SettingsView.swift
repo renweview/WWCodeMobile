@@ -27,7 +27,7 @@ struct SettingsView: View {
 
                     // TODO: Add Task Reminder Row (with toggle) #118
                     // TODO: Add Show Badge Row (with toggle) #119
-                    // TODO: Add Reminder Time #121
+                    ReminderTimeView()
                 }
 
                 // TODO: Add Section Header: What's New #107
@@ -38,7 +38,7 @@ struct SettingsView: View {
 
                 // TODO: Add Section Header: Appearance #108
                 Section {
-                    // TODO: Add App Theme Row #116
+                    ThemeView()
                     // TODO: App Icon #117
                 }
 
@@ -67,6 +67,30 @@ private struct DaysView: View {
                     }
                 }
             }
+        }
+    }
+}
+
+private struct ThemeView: View {
+    var body: some View {
+        HStack {
+            Image(systemName: "paintbrush")
+                .foregroundColor(.purple)
+                .font(Font.body.weight(.regular))
+                .imageScale(.large)
+            Text("App Theme")
+            Spacer()
+            Image(systemName: "chevron.right")
+        }
+    }
+}
+
+private struct ReminderTimeView: View {
+    var body: some View {
+        HStack{
+            Text("Reminder Time")
+            Spacer()
+            Text("7:00 PM")
         }
     }
 }
