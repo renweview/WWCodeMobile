@@ -24,6 +24,14 @@ private struct HeaderView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
+
+private struct ScreenTitleView: View {
+    var body: some View {
+        Text("Timer")
+            .font(.largeTitle)
+            .fontWeight(.bold)
+    }
+}
     }
 }
 
