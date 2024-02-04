@@ -12,6 +12,10 @@ struct ContentView: View {
         NavigationStack {
                 Spacer()
                 HeaderView()
+                List {
+                    // TODO: Add list items that show activity name and time of activity #125
+                    // TODO: Display list items in sections based on date #126
+                }
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
                         ScreenTitleView()
