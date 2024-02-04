@@ -32,6 +32,16 @@ private struct ScreenTitleView: View {
             .fontWeight(.bold)
     }
 }
+
+private struct AddButtonView: View {
+    var body: some View {
+        Button(action: {
+            // TODO: Link + button to Detail/Add/Edit screen #127
+        }, label: {
+            Image(systemName: "plus.circle.fill")
+                .foregroundColor(Color.green)
+                .font(Font.body.weight(.black))
+        })
     }
 }
 
