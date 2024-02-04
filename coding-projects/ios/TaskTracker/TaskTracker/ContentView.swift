@@ -9,13 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+                Spacer()
+                HeaderView()
+                .toolbar {
+                    ToolbarItem(placement: .topBarLeading) {
+                        ScreenTitleView()
+                    }
+                    ToolbarItem(placement: .topBarTrailing) {
+                        AddButtonView()
+                    }
+                }
         }
-        .padding()
+    }
+}
+
 private struct HeaderView: View {
     var body: some View {
         Text("Your Activity")
