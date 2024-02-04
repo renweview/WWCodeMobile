@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="content_padding">16dp</dimen>
+    <dimen name="task_list_padding">15dp</dimen>
+    <dimen name="border_thickness">2dp</dimen>
+    <dimen name="round_corner_padding">10dp</dimen>
+    <dimen name="app_bar_padding">6dp</dimen>
+    <dimen name="app_bar_spacing">10dp</dimen>
+    <dimen name="plus_icon_size">35dp</dimen>
+
+</resources>

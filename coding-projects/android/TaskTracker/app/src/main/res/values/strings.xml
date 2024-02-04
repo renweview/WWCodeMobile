@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Task Tracker</string>
+    <string name="timer">Timer</string>
+    <string name="activity_heading">Your Activity</string>
 </resources>
