@@ -4,7 +4,8 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.painterResource
-import androidx.navigation.compose.rememberNavController
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import com.example.tasktracker.R
 
 /**
@@ -18,7 +19,13 @@ fun TaskListScreen(
     IconButton(onClick = { onNavigateToSettings() }) {
         Icon(
             painterResource(id = R.drawable.baseline_settings_24),
-            contentDescription = "Settings"
+            contentDescription = stringResource(id = R.string.settings)
         )
     }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun TaskListPreview() {
+    TaskListScreen (onNavigateToSettings = {})
 }
