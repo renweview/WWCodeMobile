@@ -16,6 +16,14 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+private struct HeaderView: View {
+    var body: some View {
+        Text("Your Activity")
+            .font(.headline)
+            .padding(.leading, 20)
+            .frame(maxWidth: .infinity, alignment: .leading)
+    }
+}
     }
 }
 
