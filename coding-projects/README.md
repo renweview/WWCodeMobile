@@ -15,7 +15,10 @@ Please follow the instructions below to get started.
    - [Add specific setup steps here, e.g., installation instructions, environment setup, configuration steps, etc.]
 
 3. **Usage**:
-   - [Provide detailed instructions on how to use the project, including commands, functionalities, or any necessary guides for contributors.]
+   - This is a Todo list app where people can track the amount of time they spend doing things like exercising, coding, studying for school, etc. 
+   - **Add Flow**: In the first screen, user will see their current todo list. On the top-right, there is a plus sign where people will be able to enter the activty they want to do in a text input. There's also a Date button where users will be taken to the date-time picker where the user can set the date for their activity. From there, they will return to the entry screen with an updated date. Next, they press the Start and End Time buttons and be taken to the time picker when they manually add the times they started and finished the activity they listed on their todo list. 
+   **Detail/Edit Flow:** <!--- add detail here tomorrow -->
+  
 
 4. **Contribution Guidelines**:
 
