@@ -24,7 +24,15 @@ struct SettingsView: View {
                         .fontWeight(.bold)
                 }
 
-                // TODO: Add Section Header: Notifications #106
+                Section {
+                    
+                } header: {
+                    Label("Notifications", systemImage:
+                        "bell.fill")
+                        .font(.subheadline)
+                        .fontWeight(.bold)
+                }
+                
                 Section {
                     DaysView()
 
