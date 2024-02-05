@@ -7,6 +7,3 @@ import androidx.room.Entity
  */
 @Entity
 data class Task(val taskTitle: String, val taskTime: String, val date: String)
-
-
-
