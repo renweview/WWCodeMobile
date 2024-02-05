@@ -16,8 +16,8 @@ Please follow the instructions below to get started.
 
 3. **Usage**:
    - This is a Todo list app where people can track the amount of time they spend doing things like exercising, coding, studying for school, etc. 
-   - **Add Flow**: In the first screen, user will see their current todo list. On the top-right, there is a plus sign where people will be able to enter the activty they want to do in a text input. There's also a Date button where users will be taken to the date-time picker where the user can set the date for their activity. From there, they will return to the entry screen with an updated date. Next, they press the Start and End Time buttons and be taken to the time picker when they manually add the times they started and finished the activity they listed on their todo list. 
-   **Detail/Edit Flow:** <!--- add detail here tomorrow -->
+   - **Add Flow**: In the first screen, user will see their current todo list. On the top-right, there is a plus sign where people will be able to enter the activty they want to do in a text input. There's also a Date button where users will be taken to the date-time picker where the user can set the date for their activity. From there, they will return to the entry screen with an updated date. Next, they press the Start and End Time buttons and be taken to the time picker when they manually add the times they started and finished the activity they listed on their todo list.
+   **Detail/Edit Flow:** When a user clicks on one of the activities on their todo list, they will be led to a text input box where they can add more detail and/or about their chosen activity. On that very same page, there is a trash can icon where users a pop-up screen with the question "Are you sure you want to delete this entry?" and a delete and cancel buttons. This is where users have an option to save or delete the chosen activity from their to do list.
   
 
 4. **Contribution Guidelines**:
