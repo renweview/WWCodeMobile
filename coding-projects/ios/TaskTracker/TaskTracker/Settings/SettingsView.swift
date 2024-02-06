@@ -17,9 +17,7 @@ struct SettingsView: View {
                     // TODO: Add Privacy Policy row #110
                     // TODO: Add Tutorial row #111
                     RateAppView()
-                    
-                    
-                    // TODO: Add follow us on twitter row #113
+                    FollowOnTwitterView()
                 } header: {
                     Label("Info & Feedback", systemImage: "info.bubble.fill")
                         .font(.subheadline)
@@ -98,6 +96,31 @@ private struct RateAppView: View {
             Text("Rate app")
             Spacer()
             Image(systemName: "chevron.right")
+        }
+    }
+}
+
+private struct FollowOnTwitterView: View {
+    
+    var body: some View {
+        HStack {
+            // Image Credit: Freepik @ Flaticon https://www.flaticon.com/free-icon/twitter_5968958
+            Image("twitter")
+                .resizable()
+                .renderingMode(.template)
+                .foregroundColor(.purple)
+                .scaledToFit()
+                .frame(width: 20)
+                .padding(.horizontal, 3.5)
+            Text("Follow Us on Twitter")
+            Spacer()
+            
+            Link(destination:
+                URL(string: "https://twitter.com/WomenWhoCode")!)
+            {
+                Image(systemName: "chevron.right")
+            }
+                .foregroundColor(.black)
         }
     }
 }
