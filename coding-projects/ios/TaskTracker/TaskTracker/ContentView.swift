@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationStack {
             Spacer()
             HeaderView()
-            ListView()
+            ListView(viewModel: ListViewModel())
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
                         ScreenTitleView()

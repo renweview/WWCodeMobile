@@ -8,26 +8,10 @@
 import SwiftUI
 
 struct ListView: View {
-    let activities: [Activity] = [
-        Activity(
-            name: "walking 🚶",
-            duration: "01:35:08"
-        ),
-        Activity(
-            name: "finishing certifications",
-            duration: "03:40:04"
-        ),
-        Activity(
-            name: "setting up new dryer unit",
-            duration: "01:20:21"
-        ),
-        Activity(
-            name: "coding crunch time 😱",
-            duration: "09:30:10"
-        )
-    ]
+    @ObservedObject var viewModel: ListViewModel
+
     var body: some View {
-        List(activities) { activity in
+        List(viewModel.activities) { activity in
             // TODO: Display list items in sections based on date #126
 
             ActivityItemView(name: activity.name, duration: activity.duration)
@@ -35,12 +19,6 @@ struct ListView: View {
         }
         .listStyle(.plain)
     }
-}
-
-struct Activity: Identifiable {
-    let id = UUID()
-    let name: String
-    let duration: String
 }
 
 struct ActivityItemView: View {
@@ -62,5 +40,5 @@ struct ActivityItemView: View {
 }
 
 #Preview {
-    ListView()
+    ListView(viewModel: ListViewModel())
 }
