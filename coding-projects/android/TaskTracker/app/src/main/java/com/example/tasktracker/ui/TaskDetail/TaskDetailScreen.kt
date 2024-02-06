@@ -30,6 +30,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -53,24 +54,27 @@ class TaskDetailScreen {
             colors = CardDefaults.cardColors(
                 containerColor = Color.White,
             ),
-            border = BorderStroke(1.dp, Color.Black),
+            border = BorderStroke(dimensionResource(R.dimen.detail_border_thickness), Color.Black),
             modifier = Modifier
-                .padding(horizontal = 16.dp, vertical = 16.dp)
+                .padding(dimensionResource(R.dimen.detail_content_padding_16))
                 .wrapContentSize()
                 .verticalScroll(rememberScrollState()),
-            shape = RoundedCornerShape(30.dp)
+            shape = RoundedCornerShape(dimensionResource(R.dimen.detail_card_shape))
 
         ) {
+            val dateInfo = "JAN 29 2024" //these values should be changed, it needs to be get from ViewModel
+            val startTimeInfo = "08:22:10"
+            val endTimeInfo = "09:12:01"
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(16.dp),
+                    .padding(dimensionResource(R.dimen.detail_content_padding_16)),
                 horizontalArrangement = Arrangement.End
             ) {
                 Image(
                     painter = painterResource(id = R.drawable.outline_delete_24),
                     contentDescription = stringResource(id = R.string.delete),
-                    modifier = Modifier.padding(horizontal = 8.dp)
+                    modifier = Modifier.padding(horizontal = dimensionResource(R.dimen.detail_content_padding_8))
                 )
 
                 Image(
@@ -81,7 +85,7 @@ class TaskDetailScreen {
 
             LabelButtonRow(
                 label = stringResource(id = R.string.date_label).uppercase(),
-                buttonInfo = "JAN 29 2024"
+                buttonInfo = dateInfo
             ) {}
             var textState by remember { mutableStateOf("") }
 
@@ -89,10 +93,10 @@ class TaskDetailScreen {
                 value = textState,
                 onValueChange = { textState = it },
                 modifier = Modifier
-                    .padding(16.dp)
+                    .padding(dimensionResource(R.dimen.detail_content_padding_16))
                     .fillMaxWidth()
-                    .sizeIn(minHeight = 100.dp)
-                    .border(1.dp, Color.Gray, RoundedCornerShape(5)),
+                    .sizeIn(minHeight = dimensionResource(R.dimen.detail_textfield_min_height))
+                    .border(dimensionResource(R.dimen.detail_border_thickness), Color.Gray, RoundedCornerShape(5)),
                 label = { Text(text = stringResource(id = R.string.textfield_label)) },
                 maxLines = 20,
                 colors = TextFieldDefaults.textFieldColors(
@@ -109,11 +113,11 @@ class TaskDetailScreen {
 
             LabelButtonRow(
                 label = stringResource(id = R.string.start_time_label).uppercase(),
-                buttonInfo = "08:22:10"
+                buttonInfo = startTimeInfo
             ) {}
             LabelButtonRow(
                 label = stringResource(id = R.string.end_time_label).uppercase(),
-                buttonInfo = "09:12:01"
+                buttonInfo = endTimeInfo
             ) {}
 
             OutlinedButton(
@@ -121,11 +125,11 @@ class TaskDetailScreen {
                 colors = ButtonDefaults.textButtonColors(
                     containerColor = Color.White, contentColor = Green
                 ),
-                border = BorderStroke(1.dp, Green),
+                border = BorderStroke(dimensionResource(R.dimen.detail_border_thickness), Green),
                 modifier = Modifier
                     .align(Alignment.CenterHorizontally)
-                    .padding(top = 50.dp, bottom = 8.dp),
-                contentPadding = PaddingValues(horizontal = 40.dp, vertical = 5.dp)
+                    .padding(top = dimensionResource(R.dimen.detail_done_button_padding), bottom = dimensionResource(R.dimen.detail_content_padding_8)),
+                contentPadding = PaddingValues(horizontal = dimensionResource(R.dimen.detail_done_button_inside_padding), vertical = dimensionResource(R.dimen.detail_content_padding_8))
             ) {
                 Text(text = stringResource(id = R.string.done).uppercase())
             }
@@ -137,7 +141,7 @@ class TaskDetailScreen {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 16.dp, vertical = 8.dp),
+                .padding(horizontal = dimensionResource(R.dimen.detail_content_padding_16), vertical = dimensionResource(R.dimen.detail_content_padding_8)),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Text(
@@ -149,7 +153,7 @@ class TaskDetailScreen {
 
             Button(
                 modifier = Modifier.align(Alignment.CenterVertically),
-                shape = RoundedCornerShape(5),
+                shape = RoundedCornerShape(dimensionResource(R.dimen.detail_button_corner_shape)),
                 onClick = onClick,
                 colors = ButtonDefaults.textButtonColors(
                     containerColor = Green, contentColor = Color.White
