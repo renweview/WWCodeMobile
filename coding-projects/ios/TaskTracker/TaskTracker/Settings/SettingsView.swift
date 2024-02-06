@@ -16,7 +16,9 @@ struct SettingsView: View {
                     // TODO: Add About us row #109
                     // TODO: Add Privacy Policy row #110
                     // TODO: Add Tutorial row #111
-                    // TODO: Add Rate App row #112
+                    RateAppView()
+                    
+                    
                     // TODO: Add follow us on twitter row #113
                 } header: {
                     Label("Info & Feedback", systemImage: "info.bubble.fill")
@@ -82,6 +84,22 @@ private struct DaysView: View {
     }
 }
 
+private struct RateAppView: View {
+    
+    var body: some View {
+        HStack{
+            Image(systemName: "star.fill")
+                .foregroundColor(.purple)
+                .font(Font.body.weight(.regular))
+                .imageScale(.large)
+            Text("Rate app")
+            Spacer()
+            Image(systemName: "chevron.right")
+        }
+    }
+}
+
+
 private struct ThemeView: View {
     var body: some View {
         HStack {
@@ -109,3 +127,5 @@ private struct ReminderTimeView: View {
 #Preview {
     SettingsView()
 }
+
+
