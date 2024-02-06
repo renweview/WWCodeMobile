@@ -43,10 +43,13 @@ struct SettingsView: View {
                     ReminderTimeView()
                 }
 
-                // TODO: Add Section Header: What's New #107
                 Section {
                     // TODO: Add version 1.0 row #114
                     // TODO: Add vote on future requests row #115
+                } header: {
+                    Label("What's New", systemImage: "wand.and.stars")
+                        .font(.subheadline)
+                        .fontWeight(.bold)
                 }
 
                 // TODO: Add Section Header: Appearance #108
