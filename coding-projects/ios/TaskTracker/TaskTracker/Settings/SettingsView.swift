@@ -118,7 +118,9 @@ private struct FollowOnTwitterView: View {
             Link(destination:
                 URL(string: "https://twitter.com/WomenWhoCode")!)
             {
-                Image(systemName: "chevron.right")
+                Image(systemName: "arrow.up.right.square")
+                    .padding(.horizontal, -5)
+                    .font(.system(size: 20))
             }
                 .foregroundColor(.black)
         }
