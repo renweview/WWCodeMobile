@@ -43,13 +43,17 @@ private struct ScreenTitleView: View {
 }
 
 private struct AddButtonView: View {
+    @State private var showDetailsScreen = false
     var body: some View {
         Button(action: {
-            // TODO: Link + button to Detail/Add/Edit screen #127
+            showDetailsScreen.toggle()
         }, label: {
             Image(systemName: "plus.circle.fill")
                 .foregroundColor(Color.green)
                 .font(Font.body.weight(.black))
+        })
+        .sheet(isPresented: $showDetailsScreen, content: {
+            DetailsScreen()
         })
     }
 }
