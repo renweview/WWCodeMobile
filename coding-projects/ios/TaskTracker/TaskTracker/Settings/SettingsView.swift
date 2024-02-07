@@ -13,7 +13,7 @@ struct SettingsView: View {
             Form {
                 // TODO: Add version number footer #122
                 Section {
-                    // TODO: Add About us row #109
+                    AboutUsView()
                     // TODO: Add Privacy Policy row #110
                     // TODO: Add Tutorial row #111
                     RateAppView()
@@ -58,6 +58,21 @@ struct SettingsView: View {
 
             }
             .navigationBarTitle("Settings")
+        }
+    }
+}
+
+private struct AboutUsView: View {
+    
+    var body: some View {
+        HStack{
+            Image(systemName: "info.circle.fill")
+                .foregroundColor(.purple)
+                .font(Font.body.weight(.regular))
+                .imageScale(.large)
+            Text("About Us")
+            Spacer()
+            Image(systemName: "chevron.right")
         }
     }
 }
