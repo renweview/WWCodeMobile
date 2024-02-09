@@ -1,7 +1,6 @@
 package com.example.tasktracker.ui.TaskDetail
 
 import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
@@ -17,6 +16,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedCard
 import androidx.compose.material3.Text
@@ -35,7 +35,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.tasktracker.R
 import com.example.tasktracker.ui.theme.Green
@@ -62,7 +61,8 @@ class TaskDetailScreen {
             shape = RoundedCornerShape(dimensionResource(R.dimen.detail_card_shape))
 
         ) {
-            val dateInfo = "JAN 29 2024" //these values should be changed, it needs to be get from ViewModel
+            val dateInfo =
+                "JAN 29 2024" //these values should be changed, it needs to be get from ViewModel
             val startTimeInfo = "08:22:10"
             val endTimeInfo = "09:12:01"
             Row(
@@ -71,15 +71,16 @@ class TaskDetailScreen {
                     .padding(dimensionResource(R.dimen.detail_content_padding_16)),
                 horizontalArrangement = Arrangement.End
             ) {
-                Image(
+                Icon(
                     painter = painterResource(id = R.drawable.outline_delete_24),
                     contentDescription = stringResource(id = R.string.delete),
                     modifier = Modifier.padding(horizontal = dimensionResource(R.dimen.detail_content_padding_8))
                 )
 
-                Image(
+                Icon(
                     painter = painterResource(id = R.drawable.baseline_cancel_24),
-                    contentDescription = stringResource(id = R.string.cancel)
+                    contentDescription = stringResource(id = R.string.cancel),
+                    tint = Color.Red
                 )
             }
 
@@ -96,7 +97,11 @@ class TaskDetailScreen {
                     .padding(dimensionResource(R.dimen.detail_content_padding_16))
                     .fillMaxWidth()
                     .sizeIn(minHeight = dimensionResource(R.dimen.detail_textfield_min_height))
-                    .border(dimensionResource(R.dimen.detail_border_thickness), Color.Gray, RoundedCornerShape(5)),
+                    .border(
+                        dimensionResource(R.dimen.detail_border_thickness),
+                        Color.Gray,
+                        RoundedCornerShape(5)
+                    ),
                 label = { Text(text = stringResource(id = R.string.textfield_label)) },
                 maxLines = 20,
                 colors = TextFieldDefaults.textFieldColors(
@@ -128,8 +133,14 @@ class TaskDetailScreen {
                 border = BorderStroke(dimensionResource(R.dimen.detail_border_thickness), Green),
                 modifier = Modifier
                     .align(Alignment.CenterHorizontally)
-                    .padding(top = dimensionResource(R.dimen.detail_done_button_padding), bottom = dimensionResource(R.dimen.detail_content_padding_8)),
-                contentPadding = PaddingValues(horizontal = dimensionResource(R.dimen.detail_done_button_inside_padding), vertical = dimensionResource(R.dimen.detail_content_padding_8))
+                    .padding(
+                        top = dimensionResource(R.dimen.detail_done_button_padding),
+                        bottom = dimensionResource(R.dimen.detail_content_padding_8)
+                    ),
+                contentPadding = PaddingValues(
+                    horizontal = dimensionResource(R.dimen.detail_done_button_inside_padding),
+                    vertical = dimensionResource(R.dimen.detail_content_padding_8)
+                )
             ) {
                 Text(text = stringResource(id = R.string.done).uppercase())
             }
@@ -141,7 +152,10 @@ class TaskDetailScreen {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = dimensionResource(R.dimen.detail_content_padding_16), vertical = dimensionResource(R.dimen.detail_content_padding_8)),
+                .padding(
+                    horizontal = dimensionResource(R.dimen.detail_content_padding_16),
+                    vertical = dimensionResource(R.dimen.detail_content_padding_8)
+                ),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Text(
