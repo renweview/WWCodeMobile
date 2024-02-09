@@ -43,6 +43,7 @@ struct SettingsView: View {
 
                 Section {
                     // TODO: Add version 1.0 row #114
+                    VersionView()
                     // TODO: Add vote on future requests row #115
                 } header: {
                     Label("What's New", systemImage: "wand.and.stars")
@@ -96,6 +97,21 @@ private struct DaysView: View {
                     }
                 }
             }
+        }
+    }
+}
+
+private struct VersionView: View {
+    let appVersion: String = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
+    var body: some View {
+        HStack{
+            Image(systemName: "iphone.gen2.circle")
+                .foregroundColor(.purple)
+                .font(Font.body.weight(.regular))
+                .imageScale(.large)
+            Text("Version " + appVersion)
+            Spacer()
+            Image(systemName: "chevron.right")
         }
     }
 }
