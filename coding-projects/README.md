@@ -27,7 +27,7 @@ Please follow the instructions below to get started.
 
 - Fork this repository.
 - Create a new branch: `git checkout -b feature/your-feature`.
-- Commit your changes: `git commit -am 'Add new feature'`.
+- Commit your changes: `git commit -m 'Add new feature'`.
 - Push to the branch: `git push origin feature/your-feature`.
 - Submit a pull request.
 
