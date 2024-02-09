@@ -17,6 +17,7 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedCard
 import androidx.compose.material3.Text
@@ -71,17 +72,20 @@ class TaskDetailScreen {
                     .padding(dimensionResource(R.dimen.detail_content_padding_16)),
                 horizontalArrangement = Arrangement.End
             ) {
-                Icon(
-                    painter = painterResource(id = R.drawable.outline_delete_24),
-                    contentDescription = stringResource(id = R.string.delete),
-                    modifier = Modifier.padding(horizontal = dimensionResource(R.dimen.detail_content_padding_8))
-                )
-
-                Icon(
-                    painter = painterResource(id = R.drawable.baseline_cancel_24),
-                    contentDescription = stringResource(id = R.string.cancel),
-                    tint = Color.Red
-                )
+                IconButton(onClick = { /*TODO*/ }) {
+                    Icon(
+                        painter = painterResource(id = R.drawable.outline_delete_24),
+                        contentDescription = stringResource(id = R.string.delete),
+                        modifier = Modifier.padding(horizontal = dimensionResource(R.dimen.detail_content_padding_8))
+                    )
+                }
+                IconButton(onClick = { /*TODO*/ }) {
+                    Icon(
+                        painter = painterResource(id = R.drawable.baseline_cancel_24),
+                        contentDescription = stringResource(id = R.string.cancel),
+                        tint = Color.Red
+                    )
+                }
             }
 
             LabelButtonRow(
