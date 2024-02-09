@@ -42,7 +42,6 @@ struct SettingsView: View {
                 }
 
                 Section {
-                    // TODO: Add version 1.0 row #114
                     VersionView()
                     // TODO: Add vote on future requests row #115
                 } header: {
