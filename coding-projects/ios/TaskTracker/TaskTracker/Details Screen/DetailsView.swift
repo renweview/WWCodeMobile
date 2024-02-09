@@ -8,10 +8,54 @@
 import SwiftUI
 
 struct DetailsScreen: View {
+    @ObservedObject var viewModel = DetailsViewModel()
     @State private var taskText: String = ""
     
     var body: some View {
         VStack(spacing: 5) {
+            Spacer()
+            
+            TopBarView()
+            
+            ButtonSelectorView(descriptionText: "Date", buttonString: "Date") {
+                // TODO: Add date picker #129
+            }
+            
+            TextField("Enter your task", text: $taskText)
+                .padding()
+                .frame(minWidth: 0, maxWidth: 300, minHeight: 0, maxHeight: 200, alignment: .topLeading)
+                .border(.secondary)
+            
+            ButtonSelectorView(descriptionText: "Start Time", buttonString: "TIME") {
+                // Start time button method call
+                // TODO: Add time pickers #130
+            }
+            
+            ButtonSelectorView(descriptionText: "End Time", buttonString: "TIME") {
+                // End time button method call
+                // TODO: Add time pickers #130
+            }
+            
+            Spacer()
+            
+            DoneButton()
+            
+            Spacer()
+        }
+        .padding()
+        .overlay(
+            RoundedRectangle(cornerRadius: 25)
+                .stroke(lineWidth: 3)
+                .foregroundStyle(.black))
+        .padding()
+        .cornerRadius(25)
+        
+        Spacer()
+    }
+    
+    struct TopBarView: View {
+        
+        var body: some View {
             HStack(alignment: .lastTextBaseline, spacing: 16){
                 Spacer()
                 Button(action: {
@@ -20,7 +64,6 @@ struct DetailsScreen: View {
                        label: {
                     Image(systemName: "trash.circle")
                         .foregroundStyle(.black)
-                        .font(.title)
                 })
                 Button(action: {
                     // TODO: Add confirmation pop-up for delete button #132
@@ -28,74 +71,53 @@ struct DetailsScreen: View {
                        label: {
                     Image(systemName: "x.circle.fill")
                         .foregroundStyle(.red)
-                        .font(.title)
                 })
             }
-            
+            .font(.largeTitle)
+            .padding()
+        }
+    }
+    
+    struct ButtonSelectorView: View {
+        var descriptionText: String
+        @State var buttonString: String
+        var buttonAction: () -> Void
+        
+        init(descriptionText: String, buttonString: String, buttonAction: @escaping () -> Void) {
+            self.descriptionText = descriptionText
+            self.buttonString = buttonString
+            self.buttonAction = buttonAction
+        }
+        
+        var body: some View {
             HStack {
-                Text("Date")
+                Text(descriptionText)
                     .font(.largeTitle)
                     .fontWeight(.medium)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.5)
                 Spacer()
                 Button(action: {
-                    // TODO: Add date picker #129
+                    buttonAction()
                 },
                        label: {
-                    Text("DATE")
+                    Text(buttonString)
                         .foregroundStyle(.white)
                         .fontWeight(.medium)
                 })
                 .padding()
+                .frame(minWidth: 0, maxWidth: 120)
                 .border(Color.green, width: 3)
                 .background(.green)
+                .minimumScaleFactor(0.5)
+                
             }
             .padding()
-            
-            TextField("Enter your task", text: $taskText)
-                .frame(minWidth: 0, maxWidth: 300, minHeight: 0, maxHeight: 200, alignment: .topLeading)
-                .padding()
-                .border(.secondary)
-            
-            HStack {
-                Text("Start time")
-                    .font(.largeTitle)
-                    .fontWeight(.medium)
-                Spacer()
-                Button(action: {
-                    // TODO: Add date picker #129
-                },
-                       label: {
-                    // TODO: Add variable here that will get replaced by date picker text
-                    Text("TIME")
-                        .foregroundStyle(.white)
-                        .fontWeight(.medium)
-                })
-                .padding()
-                .border(Color.green, width: 3)
-                .background(.green)
-            }
-            .padding()
-            
-            HStack {
-                Text("End time")
-                    .font(.largeTitle)
-                    .fontWeight(.medium)
-                Spacer()
-                Button(action: {
-                    // TODO: Add date picker #129
-                },
-                       label: {
-                    // TODO: Add variable here that will get replaced by date picker text
-                    Text("TIME")
-                        .foregroundStyle(.white)
-                        .fontWeight(.medium)
-                })
-                .padding()
-                .border(Color.green, width: 3)
-                .background(.green)
-            }
-            .padding()
-            Spacer()
+        }
+    }
+    
+    struct DoneButton: View {
+        var body: some View {
             Button("Done") {
                 // TODO: Done Button redirect #133
             }
@@ -109,7 +131,6 @@ struct DetailsScreen: View {
                     .foregroundStyle(.green))
             .cornerRadius(25)
         }
-        .padding()
     }
 }
 
