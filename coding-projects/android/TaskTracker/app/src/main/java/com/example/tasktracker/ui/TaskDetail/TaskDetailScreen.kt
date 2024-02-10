@@ -76,7 +76,6 @@ class TaskDetailScreen {
                     Icon(
                         painter = painterResource(id = R.drawable.outline_delete_24),
                         contentDescription = stringResource(id = R.string.delete),
-                        modifier = Modifier.padding(horizontal = dimensionResource(R.dimen.detail_content_padding_8))
                     )
                 }
                 IconButton(onClick = { /*TODO*/ }) {
