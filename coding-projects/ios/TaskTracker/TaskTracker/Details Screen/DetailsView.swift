@@ -13,7 +13,6 @@ struct DetailsScreen: View {
     
     var body: some View {
         VStack(spacing: 5) {
-            Spacer()
             
             TopBarView()
             
