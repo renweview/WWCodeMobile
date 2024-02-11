@@ -37,7 +37,7 @@ struct SettingsView: View {
                     DaysView()
 
                     // TODO: Add Task Reminder Row (with toggle) #118
-                    // TODO: Add Show Badge Row (with toggle) #119
+                    ShowBadgeView()
                     ReminderTimeView()
                 }
 
@@ -153,6 +153,18 @@ private struct ThemeView: View {
             Text("App Theme")
             Spacer()
             Image(systemName: "chevron.right")
+        }
+    }
+}
+
+private struct ShowBadgeView: View {
+    @State private var showBadge = true
+    var body: some View {
+        HStack {
+            Text("Show Badge")
+            Spacer()
+            Toggle(isOn: $showBadge) {}
+                .tint(.purple)
         }
     }
 }
