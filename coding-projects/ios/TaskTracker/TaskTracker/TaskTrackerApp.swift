@@ -13,6 +13,6 @@ struct TaskTrackerApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: Destination.self)
+        .modelContainer(for: Task.self)
     }
 }

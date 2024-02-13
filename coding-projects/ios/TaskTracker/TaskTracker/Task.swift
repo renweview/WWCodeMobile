@@ -9,7 +9,7 @@ import Foundation
 import SwiftData
 
 @Model
-class Destination {
+class Task {
     var name: String
     var date: Date
     var startTime: Date
