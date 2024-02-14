@@ -3,12 +3,9 @@ package com.example.tasktracker.ui.TaskList
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -26,7 +23,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.tasktracker.data.TaskRepository
 import com.example.tasktracker.data.model.Task
@@ -66,8 +62,8 @@ fun TaskList(
 ) {
     LazyColumn(
         modifier = modifier
-            .padding(dimensionResource(R.dimen.task_list_padding)),
-        verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.task_list_padding)),
+            .padding(dimensionResource(R.dimen.medium_padding)),
+        verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.medium_padding)),
     ) {
         item {
             Text(
@@ -91,7 +87,7 @@ fun TaskList(
                         .border(
                             dimensionResource(R.dimen.border_thickness),
                             Color.Black,
-                            RoundedCornerShape(dimensionResource(R.dimen.round_corner_padding))
+                            RoundedCornerShape(dimensionResource(R.dimen.small_round_corner))
                         )
                 )
             }
@@ -105,7 +101,10 @@ fun Header(text: String) {
         text = text,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(all = dimensionResource(R.dimen.content_padding)),
+            .padding(
+                start = dimensionResource(id = R.dimen.small_padding),
+                top = dimensionResource(id = R.dimen.medium_padding)
+            ),
         fontWeight = FontWeight.Bold,
         style = MaterialTheme.typography.bodyLarge,
     )
