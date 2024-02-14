@@ -41,4 +41,5 @@ struct ActivityItemView: View {
 
 #Preview {
     ListView(viewModel: ListViewModel())
+        .modelContainer(taskListPreviewContainer)
 }
