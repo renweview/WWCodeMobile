@@ -85,7 +85,7 @@ private struct PrivacyView: View {
                 .foregroundColor(.purple)
                 .font(Font.body.weight(.regular))
                 .imageScale(.large)
-            Text("Privacy")
+            Text("Privacy Policy")
             Spacer()
             Image(systemName: "chevron.right")
         }
