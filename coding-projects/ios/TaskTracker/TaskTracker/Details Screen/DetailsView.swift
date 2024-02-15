@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct DetailsScreen: View {
+    @Environment(\.dismiss) var dismiss
     @ObservedObject var viewModel = DetailsViewModel()
     @State private var taskText: String = ""
-    
+    @State private var shouldDismiss: Bool = false
+
     var body: some View {
         VStack(spacing: 5) {
             
@@ -37,8 +39,8 @@ struct DetailsScreen: View {
             
             Spacer()
             
-            DoneButton()
-            
+            DoneButton(shouldDismiss: $shouldDismiss)
+
             Spacer()
         }
         .padding()
@@ -48,7 +50,12 @@ struct DetailsScreen: View {
                 .foregroundStyle(.black))
         .padding()
         .cornerRadius(25)
-        
+        .onChange(of: shouldDismiss) {
+            if shouldDismiss {
+                dismiss()
+            }
+        }
+
         Spacer()
     }
     
@@ -116,9 +123,11 @@ struct DetailsScreen: View {
     }
     
     struct DoneButton: View {
+        @Binding var shouldDismiss: Bool
+
         var body: some View {
             Button("Done") {
-                // TODO: Done Button redirect #133
+                shouldDismiss = true
             }
             .frame(minWidth: 0, maxWidth: 200)
             .font(.system(size: 18))
