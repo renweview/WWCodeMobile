@@ -13,9 +13,12 @@ struct DetailsScreen: View {
     @State private var taskText: String = ""
     @State private var shouldDismiss: Bool = false
 
+    @State private var startTime = Date.now
+    @State private var endTime = Date.now
+
     var body: some View {
-        VStack(spacing: 5) {
-            
+        VStack(spacing: 10) {
+
             TopBarView()
             
             ButtonSelectorView(descriptionText: "Date", buttonString: "Date") {
@@ -26,16 +29,18 @@ struct DetailsScreen: View {
                 .padding()
                 .frame(minWidth: 0, maxWidth: 300, minHeight: 0, maxHeight: 200, alignment: .topLeading)
                 .border(.secondary)
-            
-            ButtonSelectorView(descriptionText: "Start Time", buttonString: "TIME") {
-                // Start time button method call
-                // TODO: Add time pickers #130
+
+            DatePicker(selection: $startTime, displayedComponents: .hourAndMinute) {
+                TextView(text: "Start Time")
             }
-            
-            ButtonSelectorView(descriptionText: "End Time", buttonString: "TIME") {
-                // End time button method call
-                // TODO: Add time pickers #130
+            .datePickerStyle(.compact)
+            .padding([.leading, .trailing])
+
+            DatePicker(selection: $endTime, displayedComponents: .hourAndMinute) {
+                TextView(text: "End Time")
             }
+            .datePickerStyle(.compact)
+            .padding([.leading, .trailing])
             
             Spacer()
             
@@ -55,7 +60,6 @@ struct DetailsScreen: View {
                 dismiss()
             }
         }
-
         Spacer()
     }
     
@@ -83,7 +87,20 @@ struct DetailsScreen: View {
             .padding()
         }
     }
-    
+
+    struct TextView: View {
+        var text: String
+
+        var body: some View {
+            Text(text)
+                .textCase(.uppercase)
+                .font(.title)
+                .fontWeight(.medium)
+                .lineLimit(1)
+                .minimumScaleFactor(0.5)
+        }
+    }
+
     struct ButtonSelectorView: View {
         var descriptionText: String
         @State var buttonString: String
@@ -97,11 +114,7 @@ struct DetailsScreen: View {
         
         var body: some View {
             HStack {
-                Text(descriptionText)
-                    .font(.largeTitle)
-                    .fontWeight(.medium)
-                    .lineLimit(1)
-                    .minimumScaleFactor(0.5)
+                TextView(text: descriptionText)
                 Spacer()
                 Button(action: {
                     buttonAction()
